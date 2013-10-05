@@ -87,16 +87,16 @@ StaticServlet.MimeMap = {
 
 StaticServlet.prototype.handleRequest = function(req, res) {
   var self = this;
-  var path = ('./app/' + req.url.pathname).replace('//','/').replace(/%(..)/g, function(match, hex){
+  var path = ('./dist/' + req.url.pathname).replace('//','/').replace(/%(..)/g, function(match, hex){
     return String.fromCharCode(parseInt(hex, 16));
   });
   var parts = path.split('/');
-  if (parts[parts.length-1].charAt(0) === 'app')
+  if (parts[parts.length-1].charAt(0) === 'dist')
     return self.sendForbidden_(req, res, path);
 
   // Check for index.html request
-  if (path == "./app/"){
-    path = "./app/index.html"
+  if (path == "./dist/"){
+    path = "./dist/index.html"
   }
   fs.stat(path, function(err, stat) {
     if (err)
