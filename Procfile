@@ -1,1 +1,1 @@
-web: ./node_modules/grunt/.bin/grunt server --force
+web: ./node_modules/.bin/grunt server --force
