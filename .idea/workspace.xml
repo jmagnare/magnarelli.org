@@ -6,6 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/main.js" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1380999084139" ignored="false" />
     <file path="/main.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1380999281675" ignored="false" />
+    <file path="/index.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381012546789" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,16 +26,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="30" selection-start="1093" selection-end="1093" vertical-scroll-proportion="-11.791667">
+            <state line="56" column="48" selection-start="2436" selection-end="2436" vertical-scroll-proportion="0.89449006">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="favicon.ico" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="favicon.ico" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/favicon.ico">
           <provider selected="true" editor-type-id="images">
             <state />
@@ -80,6 +81,7 @@
       <list>
         <option value="$PROJECT_DIR$/app/scripts/controllers/main.js" />
         <option value="$PROJECT_DIR$/app/views/main.html" />
+        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
@@ -373,16 +375,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="30" selection-start="1093" selection-end="1093" vertical-scroll-proportion="-11.791667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/favicon.ico">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="48" selection-start="2436" selection-end="2436" vertical-scroll-proportion="0.89449006">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
