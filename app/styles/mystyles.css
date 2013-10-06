@@ -6,11 +6,17 @@
     background-color: #f5f5f5;
 }
 
+.descriptive-text {
+    font-size: 1.25em;
+}
 #my-social-buttons {
     margin-top: 1.5em;
 }
 h1, h2, h3, h4, h5, h6 {
     color: #5e5e5e;
+    font-family: Gibson-Regular;
+}
+p {
     font-family: Gibson-Regular;
 }
 /*
@@ -27,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .regular-link {
-    color: #5e5e5e;
+    color: #474747;
     font-family: Gibson-Regular;
 }
 #name-header {
