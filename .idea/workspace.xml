@@ -5,12 +5,12 @@
     <ignored path="magnarelli.org.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/main.js" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381029171589" ignored="false" />
-    <file path="/main.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381034842252" ignored="false" />
-    <file path="/index.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381031186935" ignored="false" />
-    <file path="/mystyles.css" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381034542629" ignored="false" />
-    <file path="$PROJECT_DIR$/.tmp/styles/foundation.css" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381035249352" ignored="false" />
-    <file path="$PROJECT_DIR$/.tmp/styles/foundation.min.css" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381035249352" ignored="false" />
-    <file path="$PROJECT_DIR$/.tmp/styles/mystyles.css" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381035249352" ignored="false" />
+    <file path="/main.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381075404575" ignored="false" />
+    <file path="/index.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381075224296" ignored="false" />
+    <file path="/mystyles.css" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381074365250" ignored="false" />
+    <file path="$PROJECT_DIR$/.tmp/styles/foundation.css" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381071226858" ignored="false" />
+    <file path="$PROJECT_DIR$/.tmp/styles/foundation.min.css" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381071226858" ignored="false" />
+    <file path="$PROJECT_DIR$/.tmp/styles/mystyles.css" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381071226858" ignored="false" />
     <file path="/whatdone.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381031410452" ignored="false" />
     <file path="/contact.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381034467892" ignored="false" />
     <file path="/app.js" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381031616155" ignored="false" />
@@ -34,19 +34,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="14" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.31418523">
+            <state line="34" column="28" selection-start="1632" selection-end="1632" vertical-scroll-proportion="-10.0">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="github.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/misc/github.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="mystyles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/mystyles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="22" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+            <state line="9" column="19" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -55,7 +62,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="51" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
+            <state line="14" column="10" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -64,16 +71,16 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="56" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
+            <state line="10" column="0" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="68" selection-start="496" selection-end="496" vertical-scroll-proportion="-5.0">
+            <state line="8" column="124" selection-start="552" selection-end="552" vertical-scroll-proportion="0.22140221">
               <folding />
             </state>
           </provider>
@@ -82,7 +89,7 @@
       <file leaf-file-name="graph_gen.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/graph_gen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="57" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
+            <state line="8" column="53" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -91,7 +98,7 @@
       <file leaf-file-name="whatlike.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/whatlike.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="113" selection-start="158" selection-end="270" vertical-scroll-proportion="-3.75">
+            <state line="6" column="34" selection-start="158" selection-end="270" vertical-scroll-proportion="-3.75">
               <folding />
             </state>
           </provider>
@@ -109,7 +116,7 @@
       <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="36" selection-start="308" selection-end="308" vertical-scroll-proportion="-6.25">
+            <state line="13" column="25" selection-start="876" selection-end="894" vertical-scroll-proportion="-8.125">
               <folding>
                 <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -132,11 +139,11 @@
         <option value="$PROJECT_DIR$/app/scripts/graph_gen.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/main.js" />
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/views/contact.html" />
-        <option value="$PROJECT_DIR$/app/styles/mystyles.css" />
         <option value="$PROJECT_DIR$/app/views/whatlike.html" />
         <option value="$PROJECT_DIR$/app/views/whatdone.html" />
+        <option value="$PROJECT_DIR$/app/styles/mystyles.css" />
+        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/views/main.html" />
       </list>
     </option>
@@ -335,6 +342,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magnarelli.org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magnarelli.org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="misc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -386,7 +411,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24986821" sideWeight="0.670354" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32964602" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -492,48 +517,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="56" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="51" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/graph_gen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="57" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="36" selection-start="308" selection-end="308" vertical-scroll-proportion="-6.25">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#span#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/mystyles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="22" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/whatlike.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="113" selection-start="158" selection-end="270" vertical-scroll-proportion="-3.75">
+        <state line="14" column="10" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -545,16 +531,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
+    <entry file="file://$PROJECT_DIR$/app/views/whatlike.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="68" selection-start="496" selection-end="496" vertical-scroll-proportion="-5.0">
+        <state line="6" column="34" selection-start="158" selection-end="270" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/misc/facebook.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/misc/github.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/mystyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="19" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="14" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.31418523">
+        <state line="34" column="28" selection-start="1632" selection-end="1632" vertical-scroll-proportion="-10.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="25" selection-start="876" selection-end="894" vertical-scroll-proportion="-8.125">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#span#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/graph_gen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="53" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="124" selection-start="552" selection-end="552" vertical-scroll-proportion="0.22140221">
           <folding />
         </state>
       </provider>
