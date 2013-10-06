@@ -8,9 +8,9 @@
     <file path="/main.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381034842252" ignored="false" />
     <file path="/index.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381031186935" ignored="false" />
     <file path="/mystyles.css" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381034542629" ignored="false" />
-    <file path="$PROJECT_DIR$/.tmp/styles/foundation.css" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381019560523" ignored="false" />
-    <file path="$PROJECT_DIR$/.tmp/styles/foundation.min.css" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381032786605" ignored="false" />
-    <file path="$PROJECT_DIR$/.tmp/styles/mystyles.css" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381019560523" ignored="false" />
+    <file path="$PROJECT_DIR$/.tmp/styles/foundation.css" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381035249352" ignored="false" />
+    <file path="$PROJECT_DIR$/.tmp/styles/foundation.min.css" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381035249352" ignored="false" />
+    <file path="$PROJECT_DIR$/.tmp/styles/mystyles.css" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381035249352" ignored="false" />
     <file path="/whatdone.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381031410452" ignored="false" />
     <file path="/contact.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381034467892" ignored="false" />
     <file path="/app.js" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381031616155" ignored="false" />
@@ -34,10 +34,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="14" selection-start="1502" selection-end="1502" vertical-scroll-proportion="-19.375">
+            <state line="31" column="14" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.31418523">
               <folding />
             </state>
           </provider>
@@ -70,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="68" selection-start="496" selection-end="496" vertical-scroll-proportion="0.14285715">
+            <state line="8" column="68" selection-start="496" selection-end="496" vertical-scroll-proportion="-5.0">
               <folding />
             </state>
           </provider>
@@ -513,13 +513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="14" selection-start="1502" selection-end="1502" vertical-scroll-proportion="-19.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="36" selection-start="308" selection-end="308" vertical-scroll-proportion="-6.25">
@@ -554,7 +547,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="68" selection-start="496" selection-end="496" vertical-scroll-proportion="0.14285715">
+        <state line="8" column="68" selection-start="496" selection-end="496" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="14" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.31418523">
           <folding />
         </state>
       </provider>
