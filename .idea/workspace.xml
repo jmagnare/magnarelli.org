@@ -5,7 +5,7 @@
     <ignored path="magnarelli.org.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/main.js" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381029171589" ignored="false" />
-    <file path="/main.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381033408891" ignored="false" />
+    <file path="/main.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381034842252" ignored="false" />
     <file path="/index.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381031186935" ignored="false" />
     <file path="/mystyles.css" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381034542629" ignored="false" />
     <file path="$PROJECT_DIR$/.tmp/styles/foundation.css" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381019560523" ignored="false" />
@@ -14,6 +14,7 @@
     <file path="/whatdone.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381031410452" ignored="false" />
     <file path="/contact.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381034467892" ignored="false" />
     <file path="/app.js" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381031616155" ignored="false" />
+    <file path="/whatlike.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381034779977" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mystyles.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mystyles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/mystyles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="22" selection-start="199" selection-end="199" vertical-scroll-proportion="0.22234891">
+            <state line="13" column="22" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -69,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="56" selection-start="907" selection-end="907" vertical-scroll-proportion="-10.625">
+            <state line="8" column="68" selection-start="496" selection-end="496" vertical-scroll-proportion="0.14285715">
               <folding />
             </state>
           </provider>
@@ -90,7 +91,7 @@
       <file leaf-file-name="whatlike.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/whatlike.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="46" selection-start="1022" selection-end="1022" vertical-scroll-proportion="-15.0">
+            <state line="6" column="113" selection-start="158" selection-end="270" vertical-scroll-proportion="-3.75">
               <folding />
             </state>
           </provider>
@@ -99,7 +100,7 @@
       <file leaf-file-name="whatdone.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/whatdone.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="60" selection-start="992" selection-end="992" vertical-scroll-proportion="-13.125">
+            <state line="7" column="111" selection-start="270" selection-end="270" vertical-scroll-proportion="-4.375">
               <folding />
             </state>
           </provider>
@@ -130,13 +131,13 @@
       <list>
         <option value="$PROJECT_DIR$/app/scripts/graph_gen.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/main.js" />
-        <option value="$PROJECT_DIR$/app/views/whatlike.html" />
-        <option value="$PROJECT_DIR$/app/views/whatdone.html" />
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
-        <option value="$PROJECT_DIR$/app/views/main.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/views/contact.html" />
         <option value="$PROJECT_DIR$/app/styles/mystyles.css" />
+        <option value="$PROJECT_DIR$/app/views/whatlike.html" />
+        <option value="$PROJECT_DIR$/app/views/whatdone.html" />
+        <option value="$PROJECT_DIR$/app/views/main.html" />
       </list>
     </option>
   </component>
@@ -491,13 +492,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/whatdone.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="60" selection-start="992" selection-end="992" vertical-scroll-proportion="-13.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="56" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
@@ -515,20 +509,6 @@
     <entry file="file://$PROJECT_DIR$/app/scripts/graph_gen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="57" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/whatlike.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="46" selection-start="1022" selection-end="1022" vertical-scroll-proportion="-15.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="56" selection-start="907" selection-end="907" vertical-scroll-proportion="-10.625">
           <folding />
         </state>
       </provider>
@@ -553,7 +533,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/mystyles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="22" selection-start="199" selection-end="199" vertical-scroll-proportion="0.22234891">
+        <state line="13" column="22" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/whatlike.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="113" selection-start="158" selection-end="270" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/whatdone.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="111" selection-start="270" selection-end="270" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="68" selection-start="496" selection-end="496" vertical-scroll-proportion="0.14285715">
           <folding />
         </state>
       </provider>
