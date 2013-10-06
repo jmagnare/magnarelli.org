@@ -5,6 +5,6 @@ angular.module('magnarelli.orgApp')
     $scope.awesomeThings = [
       ['Github', "http://www.github.com/jmagnare"],
       ['LinkedIn', "http://www.linkedin.com/in/jmagnare"],
-      ['Resume', "misc/newresume.pdf"]
+      ['Resume', "http://www.magnarelli.org/misc/newresume.pdf"]
     ];
   });

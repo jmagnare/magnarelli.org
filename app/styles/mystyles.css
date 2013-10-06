@@ -1,12 +1,25 @@
 /* 
  * Some shizzle
  */
-.container-thing {
-    background: #00628B;
+h1, h2, h3, h4, h5, h6 {
+    color: #5e5e5e;
+    font-family: Gibson-Regular;
 }
-
+/*
+.container-thing {
+    background: #3f92d2;
+}
+  */
 #jumbo_text1 {
     color: #fff;
+}
+
+.regular-link {
+    color: #5e5e5e;
+    font-family: Gibson-Regular;
+}
+#name-header {
+    margin-bottom: 0;
 }
 
 .landing {

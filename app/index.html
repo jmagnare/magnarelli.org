@@ -13,9 +13,11 @@
 
         <!-- build:css(.tmp) styles/main.css -->
         <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/foundation.min.css">
+        <link rel="stylesheet" href="styles/mystyles.css">
         <!-- endbuild -->
 </head>
-  <body ng-app="magnarelli.orgApp">
+  <body class="container-thing" ng-app="magnarelli.orgApp">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -24,6 +26,15 @@
       <script src="bower_components/es5-shim/es5-shim.js"></script>
       <script src="bower_components/json3/lib/json3.min.js"></script>
     <![endif]-->
+    <div class="row">
+        <div class="large-8 columns">
+            <h1 class="left" id="name-header"><a class="regular-link" href="index.html">James Magnarelli</a></h1>
+        </div>
+        <div class="large-4 columns">
+            <a href="http://www.linkedin.com/in/jmagnare" style="text-decoration:none;"><span style="font: 80% Arial,sans-serif; color:#0783B6;"><img src="http://www.linkedin.com/img/webpromo/btn_in_20x15.png" width="20" height="15" alt="View James Magnarelli's LinkedIn profile" style="vertical-align:middle" border="0">LinkedIn</span></a>
+        </div>
+        <hr>
+    <div>
 
     <!-- Add your site or application content here -->
     <div class="container" ng-view=""></div>
@@ -39,7 +50,7 @@
        ga('send', 'pageview');
     </script>
 
-    <script src="bower_components/jquery/jquery.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="bower_components/angular/angular.js"></script>
 
         <!-- build:js scripts/modules.js -->
