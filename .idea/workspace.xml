@@ -5,7 +5,7 @@
     <ignored path="magnarelli.org.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/main.js" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381029171589" ignored="false" />
-    <file path="/main.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381123297775" ignored="false" />
+    <file path="/main.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381453247105" ignored="false" />
     <file path="/index.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381091057354" ignored="false" />
     <file path="/mystyles.css" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381092420954" ignored="false" />
     <file path="$PROJECT_DIR$/.tmp/styles/foundation.css" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381092691804" ignored="false" />
@@ -14,7 +14,7 @@
     <file path="/whatdone.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381092202603" ignored="false" />
     <file path="/contact.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381034467892" ignored="false" />
     <file path="/app.js" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381031616155" ignored="false" />
-    <file path="/whatlike.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381092197998" ignored="false" />
+    <file path="/whatlike.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381456066322" ignored="false" />
     <file path="$PROJECT_DIR$/.tmp/styles/app.css" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381092691804" ignored="false" />
     <file path="$PROJECT_DIR$/heroku_deploy/dist/bower_components/foundation/scss/foundation/components/_grid-5.scss" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381091835562" ignored="false" />
     <file path="$PROJECT_DIR$/.tmp/styles/main.css" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381092691804" ignored="false" />
@@ -29,6 +29,9 @@
     <file path="$PROJECT_DIR$/heroku_deploy/dist/bower_components/foundation/docs/css/_footer.scss" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381092691805" ignored="false" />
     <file path="$PROJECT_DIR$/heroku_deploy/dist/bower_components/foundation/docs/css/_coderay.scss" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381092691805" ignored="false" />
     <file path="$PROJECT_DIR$/heroku_deploy/dist/bower_components/foundation/docs/css/docs.scss" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381092691805" ignored="false" />
+    <file path="/resumepage.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381452896085" ignored="false" />
+    <file path="/likesgraph.js" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381456308077" ignored="false" />
+    <file path="/likes.gexf" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381457374964" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +51,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="github.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/misc/github.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="mystyles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/mystyles.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,35 +60,66 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="favicon.ico" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/heroku_deploy/dist/favicon.ico">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="10" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="19" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.59241706">
+            <state line="8" column="40" selection-start="490" selection-end="490" vertical-scroll-proportion="-5.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="63" column="0" selection-start="2993" selection-end="2993" vertical-scroll-proportion="-21.916666">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="whatlike.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/whatlike.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="85" selection-start="872" selection-end="872" vertical-scroll-proportion="-0.091331266">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="likes.gexf" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/misc/likes.gexf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="60" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="likesgraph.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/likesgraph.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="46" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sigma.parseGexf.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/sigma.parseGexf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="161" column="0" selection-start="6751" selection-end="6751" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resumepage.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/resumepage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="63" selection-start="231" selection-end="231" vertical-scroll-proportion="-3.75">
               <folding />
             </state>
           </provider>
@@ -107,28 +134,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="whatlike.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/whatlike.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="54" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="whatdone.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/whatdone.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="54" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/contact.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="25" selection-start="876" selection-end="894" vertical-scroll-proportion="0.0">
+            <state line="6" column="54" selection-start="178" selection-end="178" vertical-scroll-proportion="-3.75">
               <folding />
             </state>
           </provider>
@@ -148,11 +157,16 @@
         <option value="$PROJECT_DIR$/app/scripts/controllers/main.js" />
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/app/views/contact.html" />
-        <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/views/whatlike.html" />
         <option value="$PROJECT_DIR$/app/views/whatdone.html" />
         <option value="$PROJECT_DIR$/app/styles/mystyles.css" />
         <option value="$PROJECT_DIR$/app/views/main.html" />
+        <option value="$PROJECT_DIR$/app/resumepage.html" />
+        <option value="$PROJECT_DIR$/app/views/whatlike.html" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/scripts/sigma.parseGexf.js" />
+        <option value="$PROJECT_DIR$/app/whatlike.html" />
+        <option value="$PROJECT_DIR$/app/scripts/likesgraph.js" />
+        <option value="$PROJECT_DIR$/app/misc/likes.gexf" />
       </list>
     </option>
   </component>
@@ -188,7 +202,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -289,12 +302,49 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magnarelli.org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magnarelli.org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magnarelli.org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magnarelli.org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="misc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,7 +353,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/app/views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
   <component name="RunManager">
@@ -335,7 +389,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="-3" width="1924" height="1052" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -416,39 +470,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="35" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="330" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="10" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/misc/facebook.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -466,35 +487,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/graph_gen.js">
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="53" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="28" selection-start="1260" selection-end="1260" vertical-scroll-proportion="-13.75" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/whatlike.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="54" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+        <state line="10" column="0" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/whatdone.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="54" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/mystyles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="18" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
+        <state line="6" column="54" selection-start="178" selection-end="178" vertical-scroll-proportion="-3.75">
           <folding />
         </state>
       </provider>
@@ -504,16 +506,76 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
+    <entry file="file://$PROJECT_DIR$/app/styles/mystyles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
+        <state line="35" column="18" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="0" selection-start="2993" selection-end="2993" vertical-scroll-proportion="-21.916666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/sigma.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/resumepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="63" selection-start="231" selection-end="231" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/graph_gen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="53" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/likesgraph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="46" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/sigma.parseGexf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="161" column="0" selection-start="6751" selection-end="6751" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/misc/likes.gexf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="60" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="19" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.59241706">
+        <state line="8" column="40" selection-start="490" selection-end="490" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/whatlike.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="85" selection-start="872" selection-end="872" vertical-scroll-proportion="-0.091331266">
           <folding />
         </state>
       </provider>

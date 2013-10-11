@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <graph defaultedgetype="directed">
+        <nodes>
+            <node id="0" label="Coding" />
+            <node id="1" label="Reading" />
+            <node id="2" label="Nighttime Drives (when I can't sleep)" />
+            <node id="3" label="Craft Beer" />
+            <node id="4" label="Node.js" />
+            <node id="5" label="Python" />
+            <node id="6" label="C" />
+            <node id="7" label="MIPS Assembly" />
+            <node id="8" label="Racket" />
+            <node id="9" label="Javascript" />
+            <node id="10" label="Web Design" />
+            <node id="11" label="Hacking" />
+            <node id="12" label="Twitter API" />
+            <node id="13" label="Reddit API" />
+            <node id="14" label="Zsh" />
+            <node id="15" label="Hiking" />
+            <node id="16" label="Meeting new people" />
+            <node id="17" label="Customer Research" />
+            <node id="18" label="R/C Aviation" />
+            <node id="19" label="Social Network Research" />
+            <node id="20" label="@Daily1811Slang" />
+            <node id="21" label="Road Trips" />
+            <node id="22" label="Harpoon IPA" />
+        </nodes>
+        <edges>
+            <edge id="0" source="0" target="1" />
+        </edges>
+    </graph>
+</gexf>
