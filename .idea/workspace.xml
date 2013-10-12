@@ -14,7 +14,7 @@
     <file path="/whatdone.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381092202603" ignored="false" />
     <file path="/contact.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381034467892" ignored="false" />
     <file path="/app.js" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381031616155" ignored="false" />
-    <file path="/whatlike.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381534086543" ignored="false" />
+    <file path="/whatlike.html" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381545604422" ignored="false" />
     <file path="$PROJECT_DIR$/.tmp/styles/app.css" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381092691804" ignored="false" />
     <file path="$PROJECT_DIR$/heroku_deploy/dist/bower_components/foundation/scss/foundation/components/_grid-5.scss" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381091835562" ignored="false" />
     <file path="$PROJECT_DIR$/.tmp/styles/main.css" changelist="a9af027c-f0ee-43ec-8997-6dd9c3972508" time="1381092691804" ignored="false" />
@@ -79,19 +79,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="whatlike.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="whatlike.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/whatlike.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="8" selection-start="3851" selection-end="3851" vertical-scroll-proportion="-14.25">
+            <state line="59" column="100" selection-start="2658" selection-end="2658" vertical-scroll-proportion="0.6768402">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="likes.json" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="likes.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/misc/likes.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="49" selection-start="26" selection-end="1232" vertical-scroll-proportion="0.9327731">
+            <state line="2" column="14" selection-start="42" selection-end="42" vertical-scroll-proportion="-1.25">
               <folding />
             </state>
           </provider>
@@ -109,7 +109,7 @@
       <file leaf-file-name="likesgraph.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/likesgraph.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="46" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+            <state line="85" column="3" selection-start="2262" selection-end="2262" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -164,11 +164,11 @@
         <option value="$PROJECT_DIR$/app/views/whatlike.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/scripts/sigma.parseGexf.js" />
-        <option value="$PROJECT_DIR$/app/scripts/likesgraph.js" />
         <option value="$PROJECT_DIR$/app/misc/likes.gexf" />
         <option value="$PROJECT_DIR$/app/styles/mystyles.css" />
-        <option value="$PROJECT_DIR$/app/whatlike.html" />
         <option value="$PROJECT_DIR$/app/misc/likes.json" />
+        <option value="$PROJECT_DIR$/app/scripts/likesgraph.js" />
+        <option value="$PROJECT_DIR$/app/whatlike.html" />
       </list>
     </option>
   </component>
@@ -580,23 +580,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/misc/likes.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="14" selection-start="42" selection-end="42" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/likesgraph.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="46" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+        <state line="85" column="3" selection-start="2262" selection-end="2262" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/whatlike.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="8" selection-start="3851" selection-end="3851" vertical-scroll-proportion="-14.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/misc/likes.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="49" selection-start="26" selection-end="1232" vertical-scroll-proportion="0.9327731">
+        <state line="59" column="100" selection-start="2658" selection-end="2658" vertical-scroll-proportion="0.6768402">
           <folding />
         </state>
       </provider>

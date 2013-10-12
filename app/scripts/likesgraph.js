@@ -1,32 +1,86 @@
-$(document).ready(function() {
-    var sigRoot = document.getElementById('sig');
-    var sigInst = sigma.init(sigRoot).drawingProperties({
-        defaultLabelColor: '#fff',
-        defaultLabelSize: 14,
-        defaultLabelBGColor: '#fff',
-        defaultLabelHoverColor: '#000',
-        labelThreshold: 6,
-        defaultEdgeType: 'curve'
-    }).graphProperties({
-            minNodeSize: 0.5,
-            maxNodeSize: 5,
-            minEdgeSize: 1,
-            maxEdgeSize: 1,
-            sideMargin: 50
-        }).mouseProperties({
-            maxRatio: 32
-        });
-          /*
-    sigInst.addNode('hello',{
-        label: 'Hello',
-        color: '#ff0000',
-        x: 1
-    }).addNode('world',{
-            label: 'World !',
-            color: '#00ff00',
-            x: 2
-        }).addEdge('hello_world','hello','world').draw();
-        */
-    sigInst.parseGexf('misc/likes.gexf');
-    sigInst.draw();
+// Returns a list of all nodes under the root.
+function flatten(root) {
+    var nodes = [], i = 0;
+
+    function recurse(node) {
+        if (node.children) node.children.forEach(recurse);
+        if (!node.id) node.id = ++i;
+        nodes.push(node);
+    }
+
+    recurse(root);
+    return nodes;
+}
+
+function build_links(node) {
+    var links = [];
+
+    if (node.children) {
+        for (var i = 0; i < node.children.length; i++) {
+            n = node.children[i];
+            links.push({"source":node, "target": n});
+            links.push.apply(build_links(n));
+        }
+    }
+    return links;
+}
+var width = 960,
+    height = 500
+
+var svg = d3.select("#d3").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+var force = d3.layout.force()
+    .gravity(.05)
+    .distance(100)
+    .charge(-100)
+    .size([width, height]);
+var color = d3.scale.category20();
+
+d3.json("misc/likes.json", function(json, error) {
+    var nodes = flatten(json);
+    var links = d3.layout.tree().links(nodes);
+    force
+        .nodes(nodes)
+        .links(links)
+        .start();
+
+    var link = svg.selectAll(".link")
+        .data(links)
+        .enter().append("line")
+        .attr("class", "link")
+        .attr("stroke-width", function(d) {return Math.sqrt(d.value);});
+
+    var node = svg.selectAll(".node")
+        .data(nodes)
+        .enter().append("g")
+        .attr("class", "node")
+        .call(force.drag);
+    /*
+     node.append("image")
+     .attr("xlink:href", "https://github.com/favicon.ico")
+     .attr("x", -8)
+     .attr("y", -8)
+     .attr("width", 16)
+     .attr("height", 16);
+     */
+    node.append("circle")
+        .attr("class", "node")
+        .attr("r", 5)
+        .style("fill", function(d) { return color(d.group)});
+
+    node.append("text")
+        .attr("dx", 12)
+        .attr("dy", ".35em")
+        .text(function(d) { return d.name });
+
+    force.on("tick", function() {
+        link.attr("x1", function(d) { return d.source.x; })
+            .attr("y1", function(d) { return d.source.y; })
+            .attr("x2", function(d) { return d.target.x; })
+            .attr("y2", function(d) { return d.target.y; });
+
+        node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+    });
 });
