@@ -32,7 +32,7 @@
     {
         "name": "Craft Beer",
         "group": "1",
-        "children": [
+        "_children": [
             {"name": "Harpoon IPA", "group": "1"},
             {"name": "Ballast Point", "group": "1"},
             {"name": "Lost Abbey", "group": "1"},
