@@ -12,20 +12,34 @@
             {"name": "MIPS Assembly", "group": "2"},
             {"name": "Racket", "group": "2"},
             {"name": "Javascript", "group": "2"},
-            {"name": "Web Design", "group": "2"},
+            {"name": "Web Development", "group": "2"},
             {"name": "Hacking", "group": "2"},
             {"name": "Twitter API", "group": "2"},
             {"name": "Reddit API", "group": "2"},
             {"name": "Zsh", "group": "2"},
             {"name": "Customer Research", "group": "2"},
             {"name": "Social Network Research", "group": "2"},
-            {"name": "@Daily1811Slang", "group": "2"}
+            {"name": "@Daily1811Slang", "group": "2"},
+            {"name": "Lean Startup", "group": "2"}
         ]
     },
     {"name": "Hiking", "group": "3"},
     {"name": "Meeting new people", "group": "3"},
-    {"name": "Reading", "group": "3"},
+    {
+        "name": "Reading",
+        "group": "4",
+        "_children": [
+            {"name": "Infinite Jest", "group": "4"},
+            {"name": "The Jungle Book", "group": "4"},
+            {"name": "Ender's Game", "group": "4"},
+            {"name": "Hitchhiker's Guide", "group": "4"},
+            {"name": "The Lord of The Rings", "group": "4"},
+            {"name": "Shogun", "group": "4"},
+            {"name": "Galactic Empire Series", "group": "4"},
+            {"name": "The Joy of Cooking", "group": "4"}
+        ]},
     {"name": "Road Trips", "group": "3"},
+    {"name": "Playing Guitar", "group": "3"},
     {"name": "Mountain Biking", "group": "3"},
     {"name": "R/C Aviation", "group": "3"},
     {"name": "Nighttime Drives (when I can't sleep)", "group": "3"},
