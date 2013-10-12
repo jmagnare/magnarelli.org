@@ -1,0 +1,43 @@
+{
+    "name": "Having Fun",
+    "group": 3,
+    "children":[
+    {
+        "name": "Coding",
+        "group": "2",
+        "children": [
+            {"name": "Node.js", "group": "2"},
+            {"name": "Python", "group": "2"},
+            {"name": "C", "group": "2"},
+            {"name": "MIPS Assembly", "group": "2"},
+            {"name": "Racket", "group": "2"},
+            {"name": "Javascript", "group": "2"},
+            {"name": "Web Design", "group": "2"},
+            {"name": "Hacking", "group": "2"},
+            {"name": "Twitter API", "group": "2"},
+            {"name": "Reddit API", "group": "2"},
+            {"name": "Zsh", "group": "2"},
+            {"name": "Customer Research", "group": "2"},
+            {"name": "Social Network Research", "group": "2"},
+            {"name": "@Daily1811Slang", "group": "2"}
+        ]
+    },
+    {"name": "Hiking", "group": "3"},
+    {"name": "Meeting new people", "group": "3"},
+    {"name": "Reading", "group": "3"},
+    {"name": "Road Trips", "group": "3"},
+    {"name": "Mountain Biking", "group": "3"},
+    {"name": "R/C Aviation", "group": "3"},
+    {"name": "Nighttime Drives (when I can't sleep)", "group": "3"},
+    {
+        "name": "Craft Beer",
+        "group": "1",
+        "children": [
+            {"name": "Harpoon IPA", "group": "1"},
+            {"name": "Ballast Point", "group": "1"},
+            {"name": "Lost Abbey", "group": "1"},
+            {"name": "Dogfish Head", "group": "1"}
+        ]
+    }
+    ]
+}

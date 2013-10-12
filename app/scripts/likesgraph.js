@@ -3,7 +3,7 @@ function flatten(root) {
     var nodes = [], i = 0;
 
     function recurse(node) {
-        if (node.children) node.children.forEach(recurse);
+        if (node.children) {node.children.forEach(recurse)};
         if (!node.id) node.id = ++i;
         nodes.push(node);
     }
@@ -11,25 +11,26 @@ function flatten(root) {
     recurse(root);
     return nodes;
 }
-
+  /*
 function build_links(node) {
     var links = [];
 
     if (node.children) {
         for (var i = 0; i < node.children.length; i++) {
-            n = node.children[i];
-            links.push({"source":node, "target": n});
+            var n = node.children[i];
+            links.push({'source':node, 'target': n});
             links.push.apply(build_links(n));
         }
     }
     return links;
 }
+*/
 var width = 960,
     height = 500
 
-var svg = d3.select("#d3").append("svg")
-    .attr("width", width)
-    .attr("height", height);
+var svg = d3.select('#d3').append('svg')
+    .attr('width', width)
+    .attr('height', height);
 
 var force = d3.layout.force()
     .gravity(.05)
@@ -38,7 +39,7 @@ var force = d3.layout.force()
     .size([width, height]);
 var color = d3.scale.category20();
 
-d3.json("misc/likes.json", function(json, error) {
+d3.json('misc/likes.json', function(json, error) {
     var nodes = flatten(json);
     var links = d3.layout.tree().links(nodes);
     force
@@ -46,41 +47,41 @@ d3.json("misc/likes.json", function(json, error) {
         .links(links)
         .start();
 
-    var link = svg.selectAll(".link")
+    var link = svg.selectAll('.link')
         .data(links)
-        .enter().append("line")
-        .attr("class", "link")
-        .attr("stroke-width", function(d) {return Math.sqrt(d.value);});
+        .enter().append('line')
+        .attr('class', 'link')
+        .attr('stroke-width', function(d) {return Math.sqrt(d.value);});
 
-    var node = svg.selectAll(".node")
+    var node = svg.selectAll('.node')
         .data(nodes)
-        .enter().append("g")
-        .attr("class", "node")
+        .enter().append('g')
+        .attr('class', 'node')
         .call(force.drag);
     /*
-     node.append("image")
-     .attr("xlink:href", "https://github.com/favicon.ico")
-     .attr("x", -8)
-     .attr("y", -8)
-     .attr("width", 16)
-     .attr("height", 16);
+     node.append('image')
+     .attr('xlink:href', 'https://github.com/favicon.ico')
+     .attr('x', -8)
+     .attr('y', -8)
+     .attr('width', 16)
+     .attr('height', 16);
      */
-    node.append("circle")
-        .attr("class", "node")
-        .attr("r", 5)
-        .style("fill", function(d) { return color(d.group)});
+    node.append('circle')
+        .attr('class', 'node')
+        .attr('r', 5)
+        .style('fill', function(d) { return color(d.group)});
 
-    node.append("text")
-        .attr("dx", 12)
-        .attr("dy", ".35em")
+    node.append('text')
+        .attr('dx', 12)
+        .attr('dy', '.35em')
         .text(function(d) { return d.name });
 
-    force.on("tick", function() {
-        link.attr("x1", function(d) { return d.source.x; })
-            .attr("y1", function(d) { return d.source.y; })
-            .attr("x2", function(d) { return d.target.x; })
-            .attr("y2", function(d) { return d.target.y; });
+    force.on('tick', function() {
+        link.attr('x1', function(d) { return d.source.x; })
+            .attr('y1', function(d) { return d.source.y; })
+            .attr('x2', function(d) { return d.target.x; })
+            .attr('y2', function(d) { return d.target.y; });
 
-        node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+        node.attr('transform', function(d) { return 'translate(' + d.x + ',' + d.y + ')'; });
     });
 });
