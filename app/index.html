@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="styles/main.css">
         <link rel="stylesheet" href="styles/foundation.min.css">
         <link rel="stylesheet" href="styles/mystyles.css">
+        <link href='http://fonts.googleapis.com/css?family=Voces' rel='stylesheet' type='text/css'>
         <!-- endbuild -->
 </head>
   <body class="container-thing background" ng-app="magnarelli.orgApp">
@@ -28,10 +29,16 @@
 
     <![endif]-->
     <div class="row">
-        <div class="large-8 columns">
-            <h1 class="left" id="name-header"><a class="regular-link" href="index.html">James Magnarelli</a></h1>
+        <div class="large-12 columns">
+            <h1 class="text-center" id="name-header"><a href="index.html"> <span class="first">
+                <span class="first-first">J</span>ames
+              </span>
+              <span class="last">
+              <span class="first-last">M</span>agnarelli
+              </span>
+            </a></h1>
         </div>
-        <div class="large-4 columns">
+        <!--<div class="large-4 columns">
          <div id="my-social-buttons" class='right'>
             <a href="https://www.linkedin.com/in/jmagnare"><img src="misc/linkedin.png" width="40px"></a>
             <a href="https://www.github.com/jmagnare"><img src="misc/github.png" width="40px"></a>
@@ -40,12 +47,42 @@
                 </div>
         </div>
         <hr>
+      -->
+    </div>
+    <div class="row">
+      <div class="text-center radio-menu">
+        <input type="radio" id="radio-option-1" name="radio-menu">
+        <span id="who-nav" class="nav-link">
+          <span class="nav-text">who</span>
+        </span>
+        <input type="radio" id="radio-option-2" name="radio-menu">
+        <span id="what-nav" class="nav-link">
+          <span class="nav-text">what</span>
+        </span>
+        <input type="radio" id="radio-option-3" name="radio-menu">
+        <span id="when-nav"class="nav-link">
+          <span class="nav-text">when</span>
+        </span>
+        <input type="radio" id="radio-option-4" name="radio-menu">
+        <span id="where-nav"class="nav-link">
+          <span class="nav-text">where</span>
+        </span>
+        <input type="radio" id="radio-option-5" name="radio-menu">
+        <span id="why-nav"class="nav-link">
+          <span class="nav-text">why</span>
+        </span>
+        <input type="radio" id="radio-option-6" name="radio-menu">
+        <span id="how-nav"class="nav-link">
+          <span class="nav-text">how</span>
+        </span>
+      </div>
     </div>
 
     <!-- Add your site or application content here -->
     <div class="row">
         <div class="container" ng-view=""></div>
     </div>
+
 
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
@@ -62,6 +99,11 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="bower_components/angular/angular.js"></script>
 
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('body').addClass('page-loaded');
+      })
+    </script>
 
         <!-- build:js scripts/modules.js -->
         <script src="bower_components/angular-resource/angular-resource.js"></script>

@@ -2,25 +2,37 @@
  * Some shizzle
  */
 
-.background {
-    background-color: #f5f5f5;
+*, *:before, *:after {
+    -webkit-box-sizing: border-box; /* Needed for mobile WebKit */
+    -moz-box-sizing: border-box; /* Needed for Firefox */
+    box-sizing: border-box
 }
 
+body {
+    margin-top: 11%;
+    color: #333;
+}
+
+.background-old {
+    background-color: #f5f5f5;
+}
+.background {
+    background-color: rgb(230, 222, 220);
+}
 .link {
     stroke: #ccc;
 }
 
 .descriptive-text {
     font-size: 1.25em;
+    color:#333;
+    font-family: Voces;
 }
 #my-social-buttons {
     margin-top: 1.5em;
 }
 h1, h2, h3, h4, h5, h6 {
     color: #5e5e5e;
-    font-family: Gibson-Regular;
-}
-p {
     font-family: Gibson-Regular;
 }
 /*
@@ -38,8 +50,70 @@ p {
 
 .regular-link {
     color: #474747;
-    font-family: Gibson-Regular;
+    font-family: Voces;
 }
-#name-header {
-    margin-bottom: 0;
+
+.nav-link {
+    color: rgb(230, 222, 220);
+    padding: 0.4rem;
+    display: inline-block;
+    font-size: 1.1rem;
+    font-family: Voces;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #000;
+}
+/*
+    background-color: rgba(29, 36, 40, 10);
+}
+*/
+
+.nav-link:hover {
+    transition: text-decoration 200ms;
+    text-decoration: underline;
+}
+
+.info-panel {
+    background-color: #000;
+}
+
+.radio-menu input[type="radio"] {
+    position: absolute;
+    left: -9999px;
+}
+
+
+
+#name-header span {
+    margin-bottom: 0.5rem;
+    color: #123484;
+    display: inline-block;
+    opacity: 0;
+    transition: -webkit-transform 800ms, opacity 800ms;
+    transition: -moz-transform 800ms, opacity 800ms;
+    transition: -ms-transform 800ms, opacity 800ms;
+    transition: -o-transform 800ms, opacity 800ms;
+    -webkit-transform: translateZ(0) translateY(100px);
+    -moz-transform: translateZ(0) translateY(100px);
+    -ms-transform: translateZ(0) translateY(100px);
+    -o-transform: translateZ(0) translateY(100px);
+}
+
+.page-loaded #name-header span {
+    opacity: 1;
+    transition: -webkit-transform 1350ms, opacity 1200ms;
+    transition: -moz-transform 1350ms, opacity 1200ms;
+    transition: -ms-transform 1350ms, opacity 1200ms;
+    transition: -o-transform 1350ms, opacity 1200ms;
+    -webkit-transform: translateZ(0) translateY(0);
+    -moz-transform: translateZ(0) translateY(0);
+    -ms-transform: translateZ(0) translateY(0);
+    -o-transform: translateZ(0) translateY(0);
+}
+
+
+.last55 span {
+    -webkit-transform: translateZ(0) translateY(100px)
 }
