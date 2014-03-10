@@ -13,6 +13,8 @@ body {
     color: #333;
 }
 
+
+
 .background-old {
     background-color: #f5f5f5;
 }
@@ -61,22 +63,27 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Voces;
     margin-left: 0.25rem;
     margin-right: 0.25rem;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-radius: 5px;
     background-color: #000;
+    width: 6rem;
+    height:1.8rem;
+    overflow: hidden;
+}
+
+.nav-link:hover .nav-text {
+    -webkit-transform: translateY(-3em);
+}
+.nav-link:hover .nav-help-text {
+    -webkit-transform: translateY(-3em);
 }
 /*
     background-color: rgba(29, 36, 40, 10);
 }
 */
 
-.nav-link:hover {
-    transition: text-decoration 200ms;
-    text-decoration: underline;
-}
-
 .info-panel {
-    background-color: #000;
+    background-color: #fff;
+    border-radius:5px;
 }
 
 .radio-menu input[type="radio"] {
@@ -113,7 +120,33 @@ h1, h2, h3, h4, h5, h6 {
     -o-transform: translateZ(0) translateY(0);
 }
 
+.accordion-example .accordion .baffle {
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+    transition: height 400ms;
+    -webkit-transform: translateZ(0);
+}
 
-.last55 span {
-    -webkit-transform: translateZ(0) translateY(100px)
+.content-container {
+    background-color: #000;
+    width:80%;
+    height:300px;
+    display: inline-block;
+    border-radius: 5px;
+}
+#name-header {
+    overflow: hidden;
+}
+
+.thingy {
+    position: relative;
+}
+.nav-help-text {
+    transition: -webkit-transform 700ms;
+}
+
+.nav-text {
+    transition: -webkit-transform 700ms;
+    margin-bottom:2em;
 }

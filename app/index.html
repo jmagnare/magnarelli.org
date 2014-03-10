@@ -31,10 +31,10 @@
     <div class="row">
         <div class="large-12 columns">
             <h1 class="text-center" id="name-header"><a href="index.html"> <span class="first">
-                <span class="first-first">J</span>ames
+                <span id="first-first">J</span>ames
               </span>
               <span class="last">
-              <span class="first-last">M</span>agnarelli
+              <span id="first-last">M</span>agnarelli
               </span>
             </a></h1>
         </div>
@@ -49,39 +49,54 @@
         <hr>
       -->
     </div>
-    <div class="row">
-      <div class="text-center radio-menu">
-        <input type="radio" id="radio-option-1" name="radio-menu">
-        <span id="who-nav" class="nav-link">
-          <span class="nav-text">who</span>
-        </span>
-        <input type="radio" id="radio-option-2" name="radio-menu">
-        <span id="what-nav" class="nav-link">
-          <span class="nav-text">what</span>
-        </span>
-        <input type="radio" id="radio-option-3" name="radio-menu">
-        <span id="when-nav"class="nav-link">
-          <span class="nav-text">when</span>
-        </span>
-        <input type="radio" id="radio-option-4" name="radio-menu">
-        <span id="where-nav"class="nav-link">
-          <span class="nav-text">where</span>
-        </span>
-        <input type="radio" id="radio-option-5" name="radio-menu">
-        <span id="why-nav"class="nav-link">
-          <span class="nav-text">why</span>
-        </span>
-        <input type="radio" id="radio-option-6" name="radio-menu">
-        <span id="how-nav"class="nav-link">
-          <span class="nav-text">how</span>
-        </span>
+    <div class="nav-stuff">
+      <div class="row">
+        <div class="text-center radio-menu">
+          <input class="nav-option" type="radio" id="radio-option-1" name="radio-menu">
+          <span id="who-nav" class="nav-link">
+            <div class="nav-text">who</div>
+            <div class="nav-help-text">about</div>
+          </span>
+          <input class="nav-option" type="radio" id="radio-option-2" name="radio-menu">
+          <span id="what-nav" class="nav-link">
+            <div class="nav-text">what</div>
+            <div class="nav-help-text">projects</div>
+          </span>
+          <input class="nav-option" type="radio" id="radio-option-3" name="radio-menu">
+          <span id="when-nav"class="nav-link">
+            <div class="nav-text">when</div>
+            <div class="nav-help-text">schedule</div>
+          </span>
+          <input class="nav-option" type="radio" id="radio-option-4" name="radio-menu">
+          <span id="where-nav"class="nav-link">
+            <div class="nav-text">where</div>
+            <div class="nav-help-text">contact</div>
+          </span>
+          <input class="nav-option" type="radio" id="radio-option-5" name="radio-menu">
+          <span id="why-nav"class="nav-link">
+            <div class="nav-text">why</div>
+            <div class="nav-help-text">blog</div>
+          </span>
+        </div>
       </div>
     </div>
+    <!--
+    <div class="row text-center">
+      <div class="content-container">
+        <div class="baffle" id="baffle-content-1"> 
+          <p>THINGS AND STUFF
+          </p>
+        </div>
+      </div>
+    </div>
+    -->
 
     <!-- Add your site or application content here -->
+    <!--
     <div class="row">
         <div class="container" ng-view=""></div>
     </div>
+  -->
 
 
 
@@ -102,7 +117,23 @@
     <script type="text/javascript">
       $(document).ready(function() {
         $('body').addClass('page-loaded');
+        displayContentArea($('#who-nav'));
       })
+
+      $('.nav-link').click(function() { displayContentArea(this);})
+      function displayContentArea(elem) {
+        // Store the currently selected elem
+        $(elem).prev().prop('checked', true);
+        // Correct styling information
+        $('.nav-option').each(function(i) {
+          contentItem = $('#baffle-content-' + (i + 1));
+          if ($(this).prop('checked')) {
+            $(contentItem).addClass('active-content');
+          } else {
+            $(contentItem).removeClass('active-content');
+          }
+        })
+      }
     </script>
 
         <!-- build:js scripts/modules.js -->
