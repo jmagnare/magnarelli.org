@@ -9,7 +9,6 @@
 }
 
 body {
-    margin-top: 18%;
     color: #333;
     font-family: lato, Voces;
 }
@@ -115,6 +114,11 @@ h1, h2, h3, h4, h5, h6 {
     -o-transform: translateZ(0) translateY(100px);
 }
 
+#name-header {
+    overflow: hidden;
+    transition: font-size 400ms;
+}
+
 .page-loaded #name-header span {
     opacity: 1;
     transition: -webkit-transform 1350ms, opacity 1200ms;
@@ -142,9 +146,6 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
     border-radius: 5px;
 }
-#name-header {
-    overflow: hidden;
-}
 
 .thingy {
     position: relative;
@@ -156,4 +157,23 @@ h1, h2, h3, h4, h5, h6 {
 .nav-text {
     transition: -webkit-transform 700ms;
     margin-bottom:2em;
+}
+
+a:hover, a:focus {
+    color: rgb(230, 222, 220);
+    cursor: auto;
+}
+
+#homepage-display {
+    margin-top: 18%;
+    transition: margin-top 1000ms
+}
+
+#homepage-display.small-home{
+    margin-top: 0;
+}
+
+#homepage-display.small-home h1 {
+    font-size: 2.5rem;
+    transition: font-size 300ms
 }

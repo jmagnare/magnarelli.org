@@ -29,55 +29,57 @@
       <script src="bower_components/json3/lib/json3.min.js"></script>
 
     <![endif]-->
-    <div class="row">
-        <div class="large-12 columns">
-            <h1 class="text-center" id="name-header"><a href="index.html"> <span class="first">
-                <span id="first-first">J</span>ames
-              </span>
-              <span class="last">
-              <span id="first-last">M</span>agnarelli
-              </span>
-            </a></h1>
-        </div>
-        <!--<div class="large-4 columns">
-         <div id="my-social-buttons" class='right'>
-            <a href="https://www.linkedin.com/in/jmagnare"><img src="misc/linkedin.png" width="40px"></a>
-            <a href="https://www.github.com/jmagnare"><img src="misc/github.png" width="40px"></a>
-            <a href="mailto:jmagnare@gmail.com"><img src="misc/email.png" width="40px"></a>
-            <a href="https://www.facebook.com/james.magnarelli"><img src="misc/facebook.png" width="39px"></a>
-                </div>
-        </div>
-        <hr>
-      -->
-    </div>
-    <div class="nav-stuff">
+    <div id="homepage-display">
       <div class="row">
-        <div class="text-center radio-menu">
-          <input class="nav-option" type="radio" id="radio-option-1" name="radio-menu">
-          <span id="who-nav" class="nav-link">
-            <div class="nav-text">who</div>
-            <div class="nav-help-text">about</div>
-          </span>
-          <input class="nav-option" type="radio" id="radio-option-2" name="radio-menu">
-          <span id="what-nav" class="nav-link">
-            <div class="nav-text">what</div>
-            <div class="nav-help-text">projects</div>
-          </span>
-          <input class="nav-option" type="radio" id="radio-option-3" name="radio-menu">
-          <span id="when-nav"class="nav-link">
-            <div class="nav-text">when</div>
-            <div class="nav-help-text">schedule</div>
-          </span>
-          <input class="nav-option" type="radio" id="radio-option-4" name="radio-menu">
-          <span id="where-nav"class="nav-link">
-            <div class="nav-text">where</div>
-            <div class="nav-help-text">contact</div>
-          </span>
-          <input class="nav-option" type="radio" id="radio-option-5" name="radio-menu">
-          <span id="why-nav"class="nav-link">
-            <div class="nav-text">why</div>
-            <div class="nav-help-text">blog</div>
-          </span>
+          <div class="large-12 columns">
+              <h1 class="text-center" id="name-header"><a href="#"> <span class="first">
+                  <span id="first-first">J</span>ames
+                </span>
+                <span class="last">
+                <span id="first-last">M</span>agnarelli
+                </span>
+              </a></h1>
+          </div>
+          <!--<div class="large-4 columns">
+           <div id="my-social-buttons" class='right'>
+              <a href="https://www.linkedin.com/in/jmagnare"><img src="misc/linkedin.png" width="40px"></a>
+              <a href="https://www.github.com/jmagnare"><img src="misc/github.png" width="40px"></a>
+              <a href="mailto:jmagnare@gmail.com"><img src="misc/email.png" width="40px"></a>
+              <a href="https://www.facebook.com/james.magnarelli"><img src="misc/facebook.png" width="39px"></a>
+                  </div>
+          </div>
+          <hr>
+        -->
+      </div>
+      <div class="nav-stuff">
+        <div class="row">
+          <div class="text-center radio-menu">
+            <input class="nav-option" type="radio" id="radio-option-1" name="radio-menu">
+            <a id="who-nav" class="nav-link" href="#who">
+              <div class="nav-text">who</div>
+              <div class="nav-help-text">about</div>
+            </a>
+            <input class="nav-option" type="radio" id="radio-option-2" name="radio-menu">
+            <a id="what-nav" class="nav-link" href="#what">
+              <div class="nav-text">what</div>
+              <div class="nav-help-text">projects</div>
+            </a>
+            <input class="nav-option" type="radio" id="radio-option-3" name="radio-menu">
+            <a id="when-nav"class="nav-link" href="#when">
+              <div class="nav-text">when</div>
+              <div class="nav-help-text">schedule</div>
+            </a>
+            <input class="nav-option" type="radio" id="radio-option-4" name="radio-menu">
+            <a id="where-nav"class="nav-link" href="#where">
+              <div class="nav-text">where</div>
+              <div class="nav-help-text">contact</div>
+            </a>
+            <input class="nav-option" type="radio" id="radio-option-5" name="radio-menu">
+            <a id="why-nav"class="nav-link" href="#why">
+              <div class="nav-text">why</div>
+              <div class="nav-help-text">blog</div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -101,6 +103,20 @@
 
 
 
+    <!-- Figure out how big to make the name and buttons. TODO (jmagnarelli): figure out a better way to do this -->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        // TODO (jmagnarelli): move these functions out into modules
+
+        var hash = window.location.hash
+        if (hash) {
+          $('#homepage-display').addClass('small-home')
+        } else {
+          $('#homepage-display').removeClass('small-home')
+        }  
+
+    </script>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -121,7 +137,8 @@
         displayContentArea($('#who-nav'));
       })
 
-      $('.nav-link').click(function() { displayContentArea(this);})
+      $('#name-header').click(function() { $('#homepage-display').removeClass('small-home')})
+      $('.nav-link').click(function() { $('#homepage-display').addClass('small-home')})
       function displayContentArea(elem) {
         // Store the currently selected elem
         $(elem).prev().prop('checked', true);
