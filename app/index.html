@@ -53,28 +53,23 @@
       </div>
       <div class="nav-stuff">
         <div class="row">
-          <div class="text-center radio-menu">
-            <input class="nav-option" type="radio" id="radio-option-1" name="radio-menu">
+          <div class="text-center">
             <a id="who-nav" class="nav-link" href="#who">
               <div class="nav-text">who</div>
               <div class="nav-help-text">about</div>
             </a>
-            <input class="nav-option" type="radio" id="radio-option-2" name="radio-menu">
             <a id="what-nav" class="nav-link" href="#what">
               <div class="nav-text">what</div>
               <div class="nav-help-text">projects</div>
             </a>
-            <input class="nav-option" type="radio" id="radio-option-3" name="radio-menu">
             <a id="when-nav"class="nav-link" href="#when">
               <div class="nav-text">when</div>
               <div class="nav-help-text">schedule</div>
             </a>
-            <input class="nav-option" type="radio" id="radio-option-4" name="radio-menu">
             <a id="where-nav"class="nav-link" href="#where">
               <div class="nav-text">where</div>
               <div class="nav-help-text">contact</div>
             </a>
-            <input class="nav-option" type="radio" id="radio-option-5" name="radio-menu">
             <a id="why-nav"class="nav-link" href="#why">
               <div class="nav-text">why</div>
               <div class="nav-help-text">blog</div>
@@ -113,12 +108,11 @@
 
 
 
-    <!-- Figure out how big to make the name and buttons. TODO (jmagnarelli): figure out a better way to do this -->
+    <!-- TODO (jmagnarelli): figure out a better way to do this small-home stuff so it works for people w/o JS -->
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="scripts/jquery.js"></script>
     <script>
-        // TODO (jmagnarelli): move these functions out into modules
 
         var hash = window.location.hash
         if (hash) {
@@ -142,24 +136,10 @@
     <script type="text/javascript">
       $(document).ready(function() {
         $('body').addClass('page-loaded');
-        displayContentArea($('#whod-nav'));
       })
 
       $('#name-header').click(function() { $('#homepage-display').removeClass('small-home')})
       $('.nav-link').click(function() { $('#homepage-display').addClass('small-home')})
-      function displayContentArea(elem) {
-        // Store the currently selected elem
-        $(elem).prev().prop('checked', true);
-        // Correct styling information
-        $('.nav-option').each(function(i) {
-          contentItem = $('#baffle-content-' + (i + 1));
-          if ($(this).prop('checked')) {
-            $(contentItem).addClass('active-content');
-          } else {
-            $(contentItem).removeClass('active-content');
-          }
-        })
-      }
     </script>
 </body>
 </html>
