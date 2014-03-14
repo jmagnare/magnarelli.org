@@ -139,12 +139,14 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-transform: translateZ(0);
 }
 
+.content-container:target {
+    display:block;
+}
+
 .content-container {
-    background-color: #000;
-    width:80%;
-    height:300px;
     display: inline-block;
-    border-radius: 5px;
+    display: none;
+    color: rgb(230, 222, 220);
 }
 
 .thingy {
@@ -165,6 +167,7 @@ a:hover, a:focus {
 }
 
 #homepage-display {
+    padding-bottom: 4%;
     margin-top: 18%;
     transition: margin-top 1000ms
 }
@@ -174,6 +177,6 @@ a:hover, a:focus {
 }
 
 #homepage-display.small-home h1 {
-    font-size: 2.5rem;
+    font-size: 1.7em;
     transition: font-size 300ms
 }

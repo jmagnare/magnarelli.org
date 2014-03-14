@@ -13,7 +13,7 @@
 
         <!-- build:css(.tmp) styles/main.css -->
         <link rel="stylesheet" href="styles/main.css">
-        <link rel="stylesheet" href="styles/foundation.min.css">
+        <link rel="stylesheet" href="styles/foundation.css">
         <link rel="stylesheet" href="styles/mystyles.css">
         <link href='http://fonts.googleapis.com/css?family=Voces' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
@@ -83,16 +83,26 @@
         </div>
       </div>
     </div>
-    <!--
-    <div class="row text-center">
-      <div class="content-container">
-        <div class="baffle" id="baffle-content-1"> 
-          <p>THINGS AND STUFF
-          </p>
-        </div>
+    <div class="content-container row" id="who">
+      <div class="large-4 columns">
+        FOUR COLUMNS WOW
+      </div>
+      <div class="large-8 columns">
+        WOW SO MANY COLUMNS
       </div>
     </div>
-    -->
+    <div class="content-container row" id="what">
+      TWO
+    </div>
+    <div class="content-container row" id="when">
+      THREE
+    </div>
+    <div class="content-container row" id="where">
+      FOUR
+    </div>
+    <div class="content-container row" id="why">
+      FIVE
+    </div>
 
     <!-- Add your site or application content here -->
     <!--
@@ -106,6 +116,7 @@
     <!-- Figure out how big to make the name and buttons. TODO (jmagnarelli): figure out a better way to do this -->
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="scripts/jquery.js"></script>
     <script>
         // TODO (jmagnarelli): move these functions out into modules
 
@@ -128,13 +139,10 @@
        ga('send', 'pageview');
     </script>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="bower_components/angular/angular.js"></script>
-
     <script type="text/javascript">
       $(document).ready(function() {
         $('body').addClass('page-loaded');
-        displayContentArea($('#who-nav'));
+        displayContentArea($('#whod-nav'));
       })
 
       $('#name-header').click(function() { $('#homepage-display').removeClass('small-home')})
@@ -153,16 +161,5 @@
         })
       }
     </script>
-
-        <!-- build:js scripts/modules.js -->
-        <script src="bower_components/angular-resource/angular-resource.js"></script>
-        <script src="bower_components/angular-cookies/angular-cookies.js"></script>
-        <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
-        <!-- endbuild -->
-
-        <!-- build:js({.tmp,app}) scripts/scripts.js -->
-        <script src="scripts/app.js"></script>
-        <script src="scripts/controllers/main.js"></script>
-        <!-- endbuild -->
 </body>
 </html>
