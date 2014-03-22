@@ -162,13 +162,15 @@ a:hover, a:focus {
 }
 
 #homepage-display {
-    padding-bottom: 4%;
+    margin-bottom: 3%;
+    padding-bottom:1%;
     margin-top: 18%;
     transition: margin-top 1000ms;
 }
 
 #homepage-display.small-home{
     margin-top:0;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 #homepage-display.small-home h1 {
