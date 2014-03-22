@@ -24,6 +24,9 @@ body {
 .background {
     background-color: #252525;
 }
+.sexy-background {
+    background-image: url('../misc/sexybackground.jpg');
+}
 .link {
     stroke: #ccc;
 }
@@ -74,9 +77,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-link:hover .nav-text {
+    transform: translateY(-3em);
+    -ms-transform: translateY(-3em);
     -webkit-transform: translateY(-3em);
 }
 .nav-link:hover .nav-help-text {
+    transform: translateY(-3em);
+    -ms-transform: translateY(-3em);
     -webkit-transform: translateY(-3em);
 }
 /*
@@ -124,14 +131,6 @@ h1, h2, h3, h4, h5, h6 {
     -o-transform: translateZ(0) translateY(0);
 }
 
-.accordion-example .accordion .baffle {
-    position: relative;
-    height: 50px;
-    overflow: hidden;
-    transition: height 400ms;
-    -webkit-transform: translateZ(0);
-}
-
 .content-container:target {
     display:block;
     text-align: justify;
@@ -148,11 +147,15 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 }
 .nav-help-text {
-    transition: -webkit-transform 700ms;
+    transition: transform 500ms;
+    transition: -ms-transform 500ms;
+    transition: -webkit-transform 500ms;
 }
 
 .nav-text {
-    transition: -webkit-transform 700ms;
+    transition: transform 500ms;
+    transition: -ms-transform 500ms;
+    transition: -webkit-transform 500ms;
     margin-bottom:2em;
 }
 

@@ -154,6 +154,11 @@
     <script type="text/javascript">
       $(document).ready(function() {
         $('body').addClass('page-loaded');
+
+        if (location.host.indexOf('magnarelli.sexy') > -1) {
+          $('body').addClass('sexy-background')
+          $('body').removeClass('background')
+        }
       })
 
       $('#name-header').click(function() { $('#homepage-display').removeClass('small-home')})
