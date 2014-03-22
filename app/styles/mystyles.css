@@ -141,6 +141,7 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
     display: none;
     color: rgb(230, 222, 220);
+    font-size:1.3em;
 }
 
 .thingy {
@@ -163,7 +164,7 @@ a:hover, a:focus {
 #homepage-display {
     padding-bottom: 4%;
     margin-top: 18%;
-    transition: margin-top 1000ms
+    transition: margin-top 1000ms;
 }
 
 #homepage-display.small-home{
@@ -172,5 +173,17 @@ a:hover, a:focus {
 
 #homepage-display.small-home h1 {
     font-size: 1.7em;
-    transition: font-size 300ms
+    transition: font-size 300ms;
+}
+
+#where a{
+    color:#000;
+}
+#where a:hover{
+    color:#333;
+}
+#where {
+    margin-top:5%;
+    font-size: 4rem;
+    opacity:0.7;
 }
