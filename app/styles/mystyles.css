@@ -134,6 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .content-container:target {
     display:block;
+    text-align: justify;
 }
 
 .content-container {
@@ -166,7 +167,7 @@ a:hover, a:focus {
 }
 
 #homepage-display.small-home{
-    margin-top: 0;
+    margin-top:0;
 }
 
 #homepage-display.small-home h1 {
