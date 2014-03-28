@@ -35,7 +35,7 @@ function update() {
     link = link.data(links, function(d) {return d.target.id});
     link.exit().remove();
     link
-        .enter().append('line')
+        .enter().insert('line')
         .attr('class', 'link')
         .attr('stroke-width', function(d) {return Math.sqrt(d.value);});
 /*

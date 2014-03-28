@@ -168,6 +168,9 @@ a:hover, a:focus {
     margin-bottom: 3%;
     padding-bottom:1%;
     margin-top: 18%;
+}
+
+.page-loaded > #homepage-display {
     transition: margin-top 1000ms;
 }
 
@@ -195,7 +198,7 @@ a:hover, a:focus {
 
 .row.info-listing {
     background: #444;
-    border-radius: 0.05em;
+    border-radius: 0.15em;
     margin-bottom: 1em;
     padding: 0.5em;
 }
