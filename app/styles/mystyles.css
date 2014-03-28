@@ -192,3 +192,20 @@ a:hover, a:focus {
     font-size: 4rem;
     opacity:0.7;
 }
+
+.row.info-listing {
+    background: #444;
+    border-radius: 0.05em;
+    margin-bottom: 1em;
+    padding: 0.5em;
+}
+
+.row.info-listing > .large-4 {
+    text-align: center;
+}
+
+.logo {
+    width: 100%;
+    max-width: 12em;
+    max-height: 10em;
+}
