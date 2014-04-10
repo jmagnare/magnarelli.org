@@ -62,23 +62,23 @@
       <div class="nav-stuff">
         <div class="row">
           <div class="text-center">
-            <a id="who-nav" class="nav-link" href="#who">
+            <a id="nav-who" class="nav-link" href="javascript:;">
               <div class="nav-text">who</div>
               <div class="nav-help-text">about</div>
             </a>
-            <a id="what-nav" class="nav-link" href="#what">
+            <a id="nav-what" class="nav-link" href="javascript:;">
               <div class="nav-text">what</div>
               <div class="nav-help-text">projects</div>
             </a>
-            <a id="when-nav"class="nav-link" href="#when">
+            <a id="nav-when"class="nav-link" href="javascript:;">
               <div class="nav-text">when</div>
               <div class="nav-help-text">career</div>
             </a>
-            <a id="where-nav"class="nav-link" href="#where">
+            <a id="nav-where"class="nav-link" href="javascript:;">
               <div class="nav-text">where</div>
               <div class="nav-help-text">contact</div>
             </a>
-            <a id="why-nav"class="nav-link" href="#why">
+            <a id="nav-why"class="nav-link" href="javascript:;">
               <div class="nav-text">why</div>
               <div class="nav-help-text">blog</div>
             </a>
@@ -106,11 +106,15 @@
     </div>
     <div class="content-container row" id="what">
       <div class="row info-listing">
-        <div class="large-4 columns">
-        <img class="logo" src="../misc/hubspot_logo_black.png" alt="The cult of the sprocket">
+        <div class="row text-center">
+          <div class="large-12 columns">
+            <img class="logo" src="../misc/logo_ttcom.png" alt="America's second biggest tax collector">
+          </div>
         </div>
-        <div class="large-8 columns">
-        STUFF lorem lorem sit amet blah blah this is content so much content wow such text very copy much express so describe
+        <div class="row">
+          <div class="large-8 columns">
+            <p>oihwefoihwefoih</p>
+          </div>
         </div>
       </div>
       <div class="row info-listing">
@@ -143,33 +147,46 @@
       <div class="row info-listing">
         <div class="large-4 columns">
         <img class="logo" src="../misc/hubspot_logo_black.png" alt="The cult of the sprocket">
+        <div class="row"><h7 class="job-title">Co-op Software Engineer</h7></div>
+        <div class="row"><h7 class="job-title">Jan - Jul 2014</h7></div>
         </div>
         <div class="large-8 columns">
-        STUFF lorem lorem sit amet blah blah this is content so much content wow such text very copy much express so describe
-        </div>
+        <p class="job-descr">Here I mostly work on the HubSpot COS, an integrated website, blog, and landing page system. </p>
+        <p class="techs-used">Primary technologies: Python, Django, Java, MySQL, Coffeescript, CSS</p>
+       </div>
       </div>
       <div class="row info-listing">
         <div class="large-4 columns">
         <img class="logo" src="../misc/logo_ttcom.png" alt="America's second biggest tax collector">
+        <div class="row"><h7 class="job-title">Co-op Software Engineer</h7></div>
+        <div class="row"><h7 class="job-title">Jan - Jul 2013</h7></div>
         </div>
         <div class="large-8 columns">
-        STUFF lorem lorem sit amet blah blah this is content so much content wow such text very copy much express so describe
+        <p class="job-descr">My role here spanned engineering and customer research. On one team, I worked on a new version of the TurboTax product, implementing new features on the back and front end.
+        On the Healthcare team, I conducted interviews and focus groups to discover customer needs and insights, then rapidly iterated on our prototypes for the next customer sessions.</p>
+        <p class="techs-used">Primary technologies: Java, Javascript, Maven</p>
+         </div>
+      </div>
+      <div class="row info-listing">
+        <div class="large-4 columns">
+        <img class="logo" src="../misc/empirix_logo.jpg" alt="They've moved to Billerica since I worked there">
+        <div class="row"><h7 class="job-title">Co-op Software Engineer</h7></div>
+        <div class="row"><h7 class="job-title">Jan - Jul 2012</h7></div>
+        </div><div class="large-8 columns">
+        <p class="job-descr">Here I developed a stress-testing and diagnostic framework for the servers we manufactured. It integrated with the bootloader and exercised all components of the system.</p>
+        <p class="techs-used">Primary technologies: C++, C, Linux</p>
         </div>
       </div>
       <div class="row info-listing">
         <div class="large-4 columns">
-        <img class="logo" src="../misc/empirix_logo.jpg" alt="America's second biggest tax collector">
+        <img class="logo" src="../misc/neu-red.png" alt="NORTH! EASTERN! NORTH! EASTERN!">
+        <div class="row"><h7 class="job-title">ResNet System Administrator</h7></div>
+        <div class="row"><h7 class="job-title">Jul 2012 - Present</h7></div>
         </div>
         <div class="large-8 columns">
-        STUFF lorem lorem sit amet blah blah this is content so much content wow such text very copy much express so describe
-        </div>
-      </div>
-      <div class="row info-listing">
-        <div class="large-4 columns">
-        <img class="logo" src="../misc/neu-red.png" alt="America's second biggest tax collector">
-        </div>
-        <div class="large-8 columns">
-        STUFF lorem lorem sit amet blah blah this is content so much content wow such text very copy much express so describe
+        <p class="job-descr">I maintain and develop the severs and other infrastructure at ResNet, a technical support office. I'm responsible for firewalls, data backup, DNS, print services, maintaining our Django applications, and more.
+        </p>
+        <p class="techs-used">Primary technologies: Ubuntu Linux, Puppet, Active Directory</p>
         </div>
       </div>
       <p id="abridged" class="text-center">This is just the abridged version. Check out the whole thing on <a href="//www.linkedin.com/in/jmagnare">LinkedIn</a></p>
@@ -223,8 +240,16 @@
         }
       })
 
-      $('#name-header').click(function() { $('#homepage-display').removeClass('small-home')})
-      $('.nav-link').click(function() { $('#homepage-display').addClass('small-home')})
+      $('#name-header').click(function() { 
+                            $('#homepage-display').removeClass('small-home');
+                            $('.content-container').removeClass('current-content');
+                          });
+      $('.nav-link').click(function() { 
+                                      $('#homepage-display').addClass('small-home');
+                                      var target = $(this).attr('id').substring(4);
+                                      $('.content-container').removeClass('current-content');
+                                      $('#' + target).addClass('current-content');
+                                    });
     </script>
 </body>
 </html>
