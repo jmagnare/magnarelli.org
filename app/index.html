@@ -62,23 +62,23 @@
       <div class="nav-stuff">
         <div class="row">
           <div class="text-center">
-            <a id="nav-who" class="nav-link" href="javascript:;">
+            <a id="nav-who" class="nav-link" href="#who">
               <div class="nav-text">who</div>
               <div class="nav-help-text">about</div>
             </a>
-            <a id="nav-what" class="nav-link" href="javascript:;">
+            <a id="nav-what" class="nav-link" href="#what">
               <div class="nav-text">what</div>
               <div class="nav-help-text">projects</div>
             </a>
-            <a id="nav-when"class="nav-link" href="javascript:;">
+            <a id="nav-when"class="nav-link" href="#when">
               <div class="nav-text">when</div>
               <div class="nav-help-text">career</div>
             </a>
-            <a id="nav-where"class="nav-link" href="javascript:;">
+            <a id="nav-where"class="nav-link" href="#where">
               <div class="nav-text">where</div>
               <div class="nav-help-text">contact</div>
             </a>
-            <a id="nav-why"class="nav-link" href="javascript:;">
+            <a id="nav-why"class="nav-link" href="#why">
               <div class="nav-text">why</div>
               <div class="nav-help-text">blog</div>
             </a>
@@ -105,42 +105,6 @@
       </div>
     </div>
     <div class="content-container row" id="what">
-      <div class="row info-listing">
-        <div class="row text-center">
-          <div class="large-12 columns">
-            <img class="logo" src="../misc/logo_ttcom.png" alt="America's second biggest tax collector">
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-8 columns">
-            <p>oihwefoihwefoih</p>
-          </div>
-        </div>
-      </div>
-      <div class="row info-listing">
-        <div class="large-4 columns">
-        <img class="logo" src="../misc/logo_ttcom.png" alt="America's second biggest tax collector">
-        </div>
-        <div class="large-8 columns">
-        STUFF lorem lorem sit amet blah blah this is content so much content wow such text very copy much express so describe
-        </div>
-      </div>
-      <div class="row info-listing">
-        <div class="large-4 columns">
-        <img class="logo" src="../misc/empirix_logo.jpg" alt="America's second biggest tax collector">
-        </div>
-        <div class="large-8 columns">
-        STUFF lorem lorem sit amet blah blah this is content so much content wow such text very copy much express so describe
-        </div>
-      </div>
-      <div class="row info-listing">
-        <div class="large-4 columns">
-        <img class="logo" src="../misc/neu-red.png" alt="America's second biggest tax collector">
-        </div>
-        <div class="large-8 columns">
-        STUFF lorem lorem sit amet blah blah this is content so much content wow such text very copy much express so describe
-        </div>
-      </div>
       <p id="abridged" class="text-center">This is just a summary. <a href="//www.github.com/jmagnarelli">GitHub</a> is the source of truth.</p>
     </div>
     <div class="content-container row" id="when">
@@ -234,6 +198,9 @@
       $(document).ready(function() {
         $('body').addClass('page-loaded');
 
+        if (location.hash) {
+          $(location.hash).addClass('current-content');
+        }
         if (location.host.indexOf('magnarelli.sexy') > -1) {
           $('body').addClass('sexy-background')
           $('body').removeClass('background')
