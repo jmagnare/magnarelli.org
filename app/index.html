@@ -94,7 +94,7 @@
     <!-- TODO (jmagnarelli) add content for 'why' -->
     <!-- TODO (jmagnarelli) sign up for google analytics and try it out -->
 
-    <div class="content-container row" id="who">
+    <div class="content-container row" id="who-container">
       <div class="large-12 columns">
         <p>I'm James. I like to make things and talk to customers.</p>
         <p>I'm passionate about feedback, and am happiest when rapidly iterating. I spend much of my time working on personal <a href="#what">projects</a>, most of which are available on <a href="http://www.github.com/jmagnarelli">GitHub</a>.</p>
@@ -104,10 +104,10 @@
         <p>I'm currently a Software Engineer Co-op at <a href="http://www.hubspot.com">HubSpot</a>, and a senior computer science student at <a href="http://www.northeastern.edu">Northeastern University</a>.</p>
       </div>
     </div>
-    <div class="content-container row" id="what">
+    <div class="content-container row" id="what-container">
       <p id="abridged" class="text-center">This is just a summary. <a href="//www.github.com/jmagnarelli">GitHub</a> is the source of truth.</p>
     </div>
-    <div class="content-container row" id="when">
+    <div class="content-container row" id="when-container">
       <div class="row info-listing">
         <div class="large-4 columns">
         <img class="logo" src="../misc/hubspot_logo_black.png" alt="The cult of the sprocket">
@@ -155,7 +155,7 @@
       </div>
       <p id="abridged" class="text-center">This is just the abridged version. Check out the whole thing on <a href="//www.linkedin.com/in/jmagnare">LinkedIn</a></p>
     </div>
-    <div class="content-container row" id="where">
+    <div class="content-container row" id="where-container">
       <div class="large-12 columns text-center">
         <a href="//www.github.com/jmagnarelli"><i class="fa fa-github-square"></i></a>
         <a href="//www.linkedin.com/in/jmagnare"><i class="fa fa-linkedin-square"></i></a>
@@ -163,7 +163,7 @@
         <a href="//www.facebook.com/james.magnarelli"><i class="fa fa-facebook-square"></i></a>
       </div>
     </div>
-    <div class="content-container row" id="why">
+    <div class="content-container row" id="why-container">
       <div class="large-12 columns text-center">
         <p>Soon, there will be a blog here. I'm taking some time to put together decent content.</p>
       </div>
@@ -199,7 +199,7 @@
         $('body').addClass('page-loaded');
 
         if (location.hash) {
-          $(location.hash).addClass('current-content');
+          $(location.hash + '-container').addClass('current-content');
         }
         if (location.host.indexOf('magnarelli.sexy') > -1) {
           $('body').addClass('sexy-background')
@@ -213,7 +213,7 @@
                           });
       $('.nav-link').click(function() { 
                                       $('#homepage-display').addClass('small-home');
-                                      var target = $(this).attr('id').substring(4);
+                                      var target = $(this).attr('id').substring(4) + '-container';
                                       $('.content-container').removeClass('current-content');
                                       $('#' + target).addClass('current-content');
                                     });
