@@ -3,3 +3,7 @@ dist
 .tmp
 .sass-cache
 app/bower_components
+heroku
+heroku_deploy
+app/socialpres
+app/socialpres2
