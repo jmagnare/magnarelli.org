@@ -1,0 +1,288 @@
+/* line 2, ../sass/custom_styles.sass */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  /* Needed for mobile WebKit */
+  -moz-box-sizing: border-box;
+  /* Needed for Firefox */
+  box-sizing: border-box;
+}
+
+/*&:before, &:after
+ *  -webkit-box-sizing: border-box
+ *  /* Needed for mobile WebKit
+ *  -moz-box-sizing: border-box
+ *  /* Needed for Firefox
+ *  box-sizing: border-box */
+/* line 16, ../sass/custom_styles.sass */
+body {
+  color: #333333;
+  font-family: lato, Voces;
+}
+
+/* line 20, ../sass/custom_styles.sass */
+.background-old {
+  background-color: whitesmoke;
+  background-color: #e6dedc;
+}
+
+/* line 24, ../sass/custom_styles.sass */
+.background {
+  background-color: #252525;
+}
+
+/* line 27, ../sass/custom_styles.sass */
+.sexy-background {
+  background-image: url("../misc/sexybackground.jpg");
+}
+
+/* line 30, ../sass/custom_styles.sass */
+.link {
+  stroke: #cccccc;
+}
+
+/* line 33, ../sass/custom_styles.sass */
+.descriptive-text {
+  font-size: 1.25em;
+  color: #333333;
+  font-family: Voces;
+}
+
+/* line 38, ../sass/custom_styles.sass */
+#my-social-buttons {
+  margin-top: 1.5em;
+}
+
+/* line 41, ../sass/custom_styles.sass */
+.job-title {
+  display: inline-block;
+  /*background-color: rgba(0, 0, 0, 0.3); */
+  /*border-radius: 0.15em; */
+  padding: 0.15em;
+  margin-bottom: 0;
+  font-size: 0.9em;
+}
+
+/* line 49, ../sass/custom_styles.sass */
+.job-descr {
+  font-size: 0.9em;
+  margin-bottom: auto;
+}
+
+/* line 53, ../sass/custom_styles.sass */
+h1, h2, h3, h4, h5, h6, h7 {
+  /*color: #5e5e5e; */
+  margin-bottom: 0.4rem;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 59, ../sass/custom_styles.sass */
+#linkedin-button {
+  margin-bottom: 0.5em;
+}
+
+/* line 62, ../sass/custom_styles.sass */
+#jumbo_text1 {
+  color: white;
+}
+
+/* line 65, ../sass/custom_styles.sass */
+.regular-link {
+  color: #474747;
+  font-family: lato, Voces;
+}
+
+/* line 69, ../sass/custom_styles.sass */
+.nav-link {
+  color: #e6dedc;
+  padding: 0.4rem;
+  display: inline-block;
+  font-size: 1.1rem;
+  font-family: Voces;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  border-radius: 5px;
+  background-color: #0975ff;
+  width: 6rem;
+  height: 1.8rem;
+  overflow: hidden;
+}
+/* line 83, ../sass/custom_styles.sass */
+.nav-link:hover .nav-text {
+  transform: translateY(-3em);
+  -ms-transform: translateY(-3em);
+  -webkit-transform: translateY(-3em);
+}
+/* line 87, ../sass/custom_styles.sass */
+.nav-link:hover .nav-help-text {
+  transform: translateY(-3em);
+  -ms-transform: translateY(-3em);
+  -webkit-transform: translateY(-3em);
+}
+
+/* line 93, ../sass/custom_styles.sass */
+.info-panel {
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* line 97, ../sass/custom_styles.sass */
+#name-header {
+  overflow: hidden;
+  transition: font-size 400ms;
+}
+/* line 98, ../sass/custom_styles.sass */
+#name-header h1 {
+  margin-bottom: 0.4rem;
+}
+/* line 100, ../sass/custom_styles.sass */
+#name-header span {
+  font-family: Lato, Voces;
+  color: #efefef;
+  display: inline-block;
+  opacity: 0;
+  transition: -webkit-transform 800ms, opacity 800ms;
+  transition: -moz-transform 800ms, opacity 800ms;
+  transition: -ms-transform 800ms, opacity 800ms;
+  transition: -o-transform 800ms, opacity 800ms;
+  -webkit-transform: translateZ(0) translateY(100px);
+  -moz-transform: translateZ(0) translateY(100px);
+  -ms-transform: translateZ(0) translateY(100px);
+  -o-transform: translateZ(0) translateY(100px);
+}
+
+/* line 116, ../sass/custom_styles.sass */
+.page-loaded #name-header span {
+  opacity: 1;
+  transition: -webkit-transform 1350ms, opacity 1200ms;
+  transition: -moz-transform 1350ms, opacity 1200ms;
+  transition: -ms-transform 1350ms, opacity 1200ms;
+  transition: -o-transform 1350ms, opacity 1200ms;
+  -webkit-transform: translateZ(0) translateY(0);
+  -moz-transform: translateZ(0) translateY(0);
+  -ms-transform: translateZ(0) translateY(0);
+  -o-transform: translateZ(0) translateY(0);
+}
+
+/* line 127, ../sass/custom_styles.sass */
+.content-container {
+  display: inline-block;
+  display: none;
+  color: #e6dedc;
+  font-size: 1.3em;
+}
+/* line 128, ../sass/custom_styles.sass */
+.content-container.current-content {
+  display: block;
+  text-align: justify;
+}
+
+/* line 136, ../sass/custom_styles.sass */
+.thingy {
+  position: relative;
+}
+
+/* line 139, ../sass/custom_styles.sass */
+.nav-help-text {
+  transition: transform 500ms;
+  transition: -ms-transform 500ms;
+  transition: -webkit-transform 500ms;
+}
+
+/* line 144, ../sass/custom_styles.sass */
+.nav-text {
+  transition: transform 500ms;
+  transition: -ms-transform 500ms;
+  transition: -webkit-transform 500ms;
+  margin-bottom: 2em;
+}
+
+/* line 151, ../sass/custom_styles.sass */
+a:hover, a:focus {
+  color: #e6dedc;
+  cursor: auto;
+}
+
+/* line 155, ../sass/custom_styles.sass */
+#homepage-display {
+  margin-bottom: 3%;
+  padding-bottom: 1%;
+  margin-top: 18%;
+}
+
+/* line 160, ../sass/custom_styles.sass */
+.page-loaded > #homepage-display {
+  transition: margin-top 1000ms;
+}
+
+/* line 163, ../sass/custom_styles.sass */
+#homepage-display.small-home {
+  margin-top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+/* line 166, ../sass/custom_styles.sass */
+#homepage-display.small-home h1 {
+  font-size: 1.7em;
+  transition: font-size 300ms;
+}
+
+/* line 170, ../sass/custom_styles.sass */
+#where-container {
+  margin-top: 5%;
+  font-size: 4rem;
+  opacity: 0.7;
+}
+/* line 171, ../sass/custom_styles.sass */
+#where-container a {
+  color: black;
+}
+/* line 173, ../sass/custom_styles.sass */
+#where-container a:hover {
+  color: #333333;
+}
+
+/* line 179, ../sass/custom_styles.sass */
+.row.info-listing {
+  background: #444444;
+  /*border-radius: 0.15em; */
+  margin-bottom: 1em;
+  padding: 0.5em;
+}
+/* line 184, ../sass/custom_styles.sass */
+.row.info-listing > .large-4 {
+  text-align: center;
+}
+
+/* line 187, ../sass/custom_styles.sass */
+.logo {
+  width: 100%;
+  height: 100%;
+  max-width: 12em;
+  max-height: 10em;
+  margin-bottom: 0.3em;
+}
+
+/* line 194, ../sass/custom_styles.sass */
+.job-descr {
+  display: inline-block;
+  font-size: 0.85em;
+  margin-bottom: 0;
+  margin-top: 0.3em;
+  word-spacing: 0.6em;
+}
+
+/* line 201, ../sass/custom_styles.sass */
+.techs-used {
+  display: inline-block;
+  font-size: 0.85em;
+  margin-bottom: 0;
+  margin-top: 0.3em;
+  word-spacing: 0.6em;
+  margin-right: 0.5em;
+}
+
+/* line 209, ../sass/custom_styles.sass */
+.techs-list {
+  font-size: 0.85em;
+  display: inline-block;
+  margin-bottom: 0;
+}
