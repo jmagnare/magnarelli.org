@@ -262,6 +262,15 @@ a:hover, a:focus {
 }
 
 /* line 194, ../sass/custom_styles.sass */
+.screencap {
+  width: 100%;
+  height: 100%;
+  max-width: 18em;
+  max-height: 15em;
+  margin-bottom: 0.3em;
+}
+
+/* line 201, ../sass/custom_styles.sass */
 .job-descr {
   display: inline-block;
   font-size: 0.85em;
@@ -270,7 +279,7 @@ a:hover, a:focus {
   word-spacing: 0.6em;
 }
 
-/* line 201, ../sass/custom_styles.sass */
+/* line 208, ../sass/custom_styles.sass */
 .techs-used {
   display: inline-block;
   font-size: 0.85em;
@@ -280,7 +289,7 @@ a:hover, a:focus {
   margin-right: 0.5em;
 }
 
-/* line 209, ../sass/custom_styles.sass */
+/* line 216, ../sass/custom_styles.sass */
 .techs-list {
   font-size: 0.85em;
   display: inline-block;
