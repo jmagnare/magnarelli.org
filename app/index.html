@@ -246,7 +246,7 @@
         }
 
         // Let's slip into something a little more comfortable...
-        if (location.host.indexOf('magnarelli.sexy') > -1) {
+        if ((document.referrer.indexOf('magnarelli.sexy') > -1) && (self != top)) {
           $('body').addClass('sexy-background')
           $('body').removeClass('background')
         }
