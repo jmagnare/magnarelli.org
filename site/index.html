@@ -259,12 +259,14 @@
       $('#name-header').click(function() { 
                             $('#homepage-display').removeClass('small-home');
                             $('.content-container').removeClass('current-content');
+                            ga('send', 'pageview');
                           });
       $('.nav-link').click(function() { 
                                       $('#homepage-display').addClass('small-home');
                                       var target = $(this).attr('id').substring(4) + '-container';
                                       $('.content-container').removeClass('current-content');
                                       $('#' + target).addClass('current-content');
+                                      ga('send', 'pageview', window.location.pathname + window.location.hash);
                                     });
     </script>
     <script>
