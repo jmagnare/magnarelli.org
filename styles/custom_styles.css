@@ -305,3 +305,8 @@ a:hover, a:focus {
 #phone-number {
   font-size: 0.3em;
 }
+
+/* line 228, ../sass/custom_styles.sass */
+.post-link {
+  font-size: 1.3em;
+}
