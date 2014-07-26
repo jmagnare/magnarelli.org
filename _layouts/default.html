@@ -3,7 +3,10 @@
 
   {% include head.html %}
 
-    <body class="container-thing background">
+    <body class="container-thing background
+    {% if page.url != '/index.html' %}
+    page-loaded
+    {% endif %}">
 
     {{ content }}
 
