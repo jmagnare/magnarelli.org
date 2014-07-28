@@ -4,13 +4,24 @@ layout: default
 {% include top_nav.html %}
 <div class="post content-container current-content">
 
-  <header class="post-header">
-    <h1>{{ page.title }}</h1>
-    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
-
-  <article class="post-content">
-  {{ content }}
-  </article>
+  <div class="row">
+    <header class="post-header project-descr">
+      <div class="row">
+        <div class="large-12 columns">
+          <h3>{{ page.title }}</h3>
+        </div>
+      </div>
+      <div class="row">
+      	<p class="meta large-4 columns">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+      	<p class="large-8 columns right">{{page.categories | join ' '}}</p>
+      </div>
+    </header>
+  </div>
+  <br>
+  <div class="row">
+    <article class="post-content">
+    {{ content }}
+    </article>
+  </div>
 
 </div>
