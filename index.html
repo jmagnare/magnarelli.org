@@ -4,7 +4,7 @@ layout: default
   <!--[if lt IE 7]>
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
-  
+
   {% include top_nav.html %}
   <div class="content-container row" id="who-container">
     <div class="large-12 columns">
@@ -144,7 +144,14 @@ layout: default
       <div class='row info-listing'>
         <div class='large-4 columns'>
           <div class='row'><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
-          <div class='row'><span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span></div>
+          <div class='row'>
+            <div class="large-4 columns job-title">{{ post.date | date: "%b %-d, %Y" }}</div>
+            <div class="large-8 columns job-title right">
+              {% for category in post.categories %}
+                {{ category }}
+              {% endfor %}
+            </div>
+          </div>
         </div>
         <div class='large-8 columns'>
           {{ post.excerpt }}
