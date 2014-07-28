@@ -113,17 +113,6 @@ h1, h2, h3, h4, h5, h6, h7
   overflow: hidden
   transition: font-size 400ms
 
-.page-loaded #name-header span
-  opacity: 1
-  transition: -webkit-transform 1350ms, opacity 1200ms
-  transition: -moz-transform 1350ms, opacity 1200ms
-  transition: -ms-transform 1350ms, opacity 1200ms
-  transition: -o-transform 1350ms, opacity 1200ms
-  -webkit-transform: translateZ(0) translateY(0)
-  -moz-transform: translateZ(0) translateY(0)
-  -ms-transform: translateZ(0) translateY(0)
-  -o-transform: translateZ(0) translateY(0)
-
 .content-container
   &.current-content
     display: block
@@ -136,20 +125,39 @@ h1, h2, h3, h4, h5, h6, h7
 .thingy
   position: relative
 
-.nav-help-text
-  transition: transform 500ms
-  transition: -ms-transform 500ms
-  transition: -webkit-transform 500ms
-
 .nav-text
-  transition: transform 500ms
-  transition: -ms-transform 500ms
-  transition: -webkit-transform 500ms
   margin-bottom: 2em
 
+.page-loaded
+  .nav-help-text
+    transition: transform 500ms
+    transition: -ms-transform 500ms
+    transition: -webkit-transform 500ms
+  .nav-text
+    transition: transform 500ms
+    transition: -ms-transform 500ms
+    transition: -webkit-transform 500ms
+  h1#homepage-display.small-home
+    transition: font-size 300ms
+
+  #name-header span
+    opacity: 1
+    transition: -webkit-transform 1350ms, opacity 1200ms
+    transition: -moz-transform 1350ms, opacity 1200ms
+    transition: -ms-transform 1350ms, opacity 1200ms
+    transition: -o-transform 1350ms, opacity 1200ms
+    -webkit-transform: translateZ(0) translateY(0)
+    -moz-transform: translateZ(0) translateY(0)
+    -ms-transform: translateZ(0) translateY(0)
+    -o-transform: translateZ(0) translateY(0)
+
+  .small-home #name-header span
+    transition: none
+
+
 a
-  &:hover, &:focus
-    color: rgb(230, 222, 220)
+  &:hover, &:color
+    focus: rgb(230, 222, 220)
     cursor: auto
 
 #homepage-display
@@ -165,7 +173,6 @@ a
   background-color: rgba(0, 0, 0, 0.3)
   h1
     font-size: 1.7em
-    transition: font-size 300ms
 
 #where-container
   a
@@ -202,6 +209,10 @@ a
   h4
     color: #e6dedc
 
+.post-header
+  h3
+    color: #e6dedc
+
 .job-descr
   display: inline-block
   font-size: 0.85em
@@ -227,3 +238,6 @@ a
 
 .post-link
   font-size: 1.3em
+
+.post-header
+  border-bottom: 1px solid #e6dedc

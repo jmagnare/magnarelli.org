@@ -11,8 +11,6 @@
       }
       // Only include single page grow/shrink stuff if we're not in the blog
       {% if page.url == '/index.html' %}
-      // Do the cool name thing
-      $('body').addClass('page-loaded');
 
       // Go to the appropriate location (no :target stuff to avoid 'jumps')
       if (location.hash) {
@@ -21,6 +19,12 @@
       } else {
         $('#homepage-display').removeClass('small-home');
       }
+
+      // Force redraw so we don't apply page-loaded and apply transitions too early
+      $('body').hide().show(0);
+      
+      // Do the cool name thing
+      $('body').addClass('page-loaded');
       {% endif %}
 
 
