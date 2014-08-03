@@ -29,30 +29,35 @@ body {
 .background {
   background-color: #252525;
 }
+/* line 26, ../sass/custom_styles.sass */
+.background a:hover, .background a:focus {
+  color: #e6dedc;
+  cursor: auto;
+}
 
-/* line 27, ../sass/custom_styles.sass */
+/* line 31, ../sass/custom_styles.sass */
 .sexy-background {
   background-image: url("../misc/sexybackground.jpg");
 }
 
-/* line 30, ../sass/custom_styles.sass */
+/* line 34, ../sass/custom_styles.sass */
 .link {
   stroke: #cccccc;
 }
 
-/* line 33, ../sass/custom_styles.sass */
+/* line 37, ../sass/custom_styles.sass */
 .descriptive-text {
   font-size: 1.25em;
   color: #333333;
   font-family: Voces;
 }
 
-/* line 38, ../sass/custom_styles.sass */
+/* line 42, ../sass/custom_styles.sass */
 #my-social-buttons {
   margin-top: 1.5em;
 }
 
-/* line 41, ../sass/custom_styles.sass */
+/* line 45, ../sass/custom_styles.sass */
 .job-title {
   display: inline-block;
   /*background-color: rgba(0, 0, 0, 0.3); */
@@ -62,36 +67,36 @@ body {
   font-size: 0.9em;
 }
 
-/* line 49, ../sass/custom_styles.sass */
+/* line 53, ../sass/custom_styles.sass */
 .job-descr {
   font-size: 0.9em;
   margin-bottom: auto;
 }
 
-/* line 53, ../sass/custom_styles.sass */
+/* line 57, ../sass/custom_styles.sass */
 h1, h2, h3, h4, h5, h6, h7 {
   /*color: #5e5e5e; */
   margin-bottom: 0.4rem;
   text-rendering: optimizeLegibility;
 }
 
-/* line 59, ../sass/custom_styles.sass */
+/* line 63, ../sass/custom_styles.sass */
 #linkedin-button {
   margin-bottom: 0.5em;
 }
 
-/* line 62, ../sass/custom_styles.sass */
+/* line 66, ../sass/custom_styles.sass */
 #jumbo_text1 {
   color: white;
 }
 
-/* line 65, ../sass/custom_styles.sass */
+/* line 69, ../sass/custom_styles.sass */
 .regular-link {
   color: #474747;
   font-family: lato, Voces;
 }
 
-/* line 69, ../sass/custom_styles.sass */
+/* line 73, ../sass/custom_styles.sass */
 .nav-link {
   color: #e6dedc;
   padding: 0.4rem;
@@ -106,35 +111,35 @@ h1, h2, h3, h4, h5, h6, h7 {
   height: 1.8rem;
   overflow: hidden;
 }
-/* line 83, ../sass/custom_styles.sass */
+/* line 87, ../sass/custom_styles.sass */
 .nav-link:hover .nav-text {
   transform: translateY(-3em);
   -ms-transform: translateY(-3em);
   -webkit-transform: translateY(-3em);
 }
-/* line 87, ../sass/custom_styles.sass */
+/* line 91, ../sass/custom_styles.sass */
 .nav-link:hover .nav-help-text {
   transform: translateY(-3em);
   -ms-transform: translateY(-3em);
   -webkit-transform: translateY(-3em);
 }
 
-/* line 93, ../sass/custom_styles.sass */
+/* line 97, ../sass/custom_styles.sass */
 .info-panel {
   background-color: white;
   border-radius: 5px;
 }
 
-/* line 97, ../sass/custom_styles.sass */
+/* line 101, ../sass/custom_styles.sass */
 #name-header {
   overflow: hidden;
   transition: font-size 400ms;
 }
-/* line 98, ../sass/custom_styles.sass */
+/* line 102, ../sass/custom_styles.sass */
 #name-header h1 {
   margin-bottom: 0.4rem;
 }
-/* line 100, ../sass/custom_styles.sass */
+/* line 104, ../sass/custom_styles.sass */
 #name-header span {
   font-family: Lato, Voces;
   color: #efefef;
@@ -150,46 +155,46 @@ h1, h2, h3, h4, h5, h6, h7 {
   -o-transform: translateZ(0) translateY(100px);
 }
 
-/* line 116, ../sass/custom_styles.sass */
+/* line 120, ../sass/custom_styles.sass */
 .content-container {
   display: inline-block;
   display: none;
   color: #e6dedc;
   font-size: 1.3em;
 }
-/* line 117, ../sass/custom_styles.sass */
+/* line 121, ../sass/custom_styles.sass */
 .content-container.current-content {
   display: block;
   text-align: justify;
 }
 
-/* line 125, ../sass/custom_styles.sass */
+/* line 129, ../sass/custom_styles.sass */
 .thingy {
   position: relative;
 }
 
-/* line 128, ../sass/custom_styles.sass */
+/* line 132, ../sass/custom_styles.sass */
 .nav-text {
   margin-bottom: 2em;
 }
 
-/* line 132, ../sass/custom_styles.sass */
+/* line 136, ../sass/custom_styles.sass */
 .page-loaded .nav-help-text {
   transition: transform 500ms;
   transition: -ms-transform 500ms;
   transition: -webkit-transform 500ms;
 }
-/* line 136, ../sass/custom_styles.sass */
+/* line 140, ../sass/custom_styles.sass */
 .page-loaded .nav-text {
   transition: transform 500ms;
   transition: -ms-transform 500ms;
   transition: -webkit-transform 500ms;
 }
-/* line 140, ../sass/custom_styles.sass */
+/* line 144, ../sass/custom_styles.sass */
 .page-loaded h1#homepage-display.small-home {
   transition: font-size 300ms;
 }
-/* line 143, ../sass/custom_styles.sass */
+/* line 147, ../sass/custom_styles.sass */
 .page-loaded #name-header span {
   opacity: 1;
   transition: -webkit-transform 1350ms, opacity 1200ms;
@@ -201,67 +206,61 @@ h1, h2, h3, h4, h5, h6, h7 {
   -ms-transform: translateZ(0) translateY(0);
   -o-transform: translateZ(0) translateY(0);
 }
-/* line 154, ../sass/custom_styles.sass */
+/* line 158, ../sass/custom_styles.sass */
 .page-loaded .small-home #name-header span {
   transition: none;
 }
 
-/* line 159, ../sass/custom_styles.sass */
-a:hover, a:color {
-  focus: #e6dedc;
-  cursor: auto;
-}
-
-/* line 163, ../sass/custom_styles.sass */
+/* line 162, ../sass/custom_styles.sass */
 #homepage-display {
   margin-bottom: 3%;
   padding-bottom: 1%;
   margin-top: 18%;
 }
 
-/* line 168, ../sass/custom_styles.sass */
+/* line 167, ../sass/custom_styles.sass */
 .page-loaded > #homepage-display {
   transition: margin-top 1000ms;
 }
 
-/* line 171, ../sass/custom_styles.sass */
+/* line 170, ../sass/custom_styles.sass */
 #homepage-display.small-home {
   margin-top: 0;
   background-color: rgba(0, 0, 0, 0.3);
 }
-/* line 174, ../sass/custom_styles.sass */
+/* line 173, ../sass/custom_styles.sass */
 #homepage-display.small-home h1 {
   font-size: 1.7em;
 }
 
-/* line 177, ../sass/custom_styles.sass */
+/* line 176, ../sass/custom_styles.sass */
 #where-container {
   margin-top: 5%;
   font-size: 4rem;
   opacity: 0.7;
 }
-/* line 178, ../sass/custom_styles.sass */
+/* line 177, ../sass/custom_styles.sass */
 #where-container a {
   color: black;
 }
-/* line 180, ../sass/custom_styles.sass */
+/* line 179, ../sass/custom_styles.sass */
 #where-container a:hover {
   color: #333333;
 }
 
-/* line 186, ../sass/custom_styles.sass */
+/* line 185, ../sass/custom_styles.sass */
 .row.info-listing {
   background: #444444;
   /*border-radius: 0.15em; */
   margin-bottom: 1em;
   padding: 0.5em;
 }
-/* line 191, ../sass/custom_styles.sass */
+/* line 190, ../sass/custom_styles.sass */
 .row.info-listing > .large-4 {
   text-align: center;
 }
 
-/* line 194, ../sass/custom_styles.sass */
+/* line 193, ../sass/custom_styles.sass */
 .logo {
   width: 100%;
   height: 100%;
@@ -270,7 +269,7 @@ a:hover, a:color {
   margin-bottom: 0.3em;
 }
 
-/* line 201, ../sass/custom_styles.sass */
+/* line 200, ../sass/custom_styles.sass */
 .screencap {
   width: 100%;
   height: 100%;
@@ -279,17 +278,17 @@ a:hover, a:color {
   margin-bottom: 0.3em;
 }
 
-/* line 209, ../sass/custom_styles.sass */
+/* line 208, ../sass/custom_styles.sass */
 .project-descr h4 {
   color: #e6dedc;
 }
 
-/* line 213, ../sass/custom_styles.sass */
+/* line 212, ../sass/custom_styles.sass */
 .post-header h3 {
   color: #e6dedc;
 }
 
-/* line 216, ../sass/custom_styles.sass */
+/* line 215, ../sass/custom_styles.sass */
 .job-descr {
   display: inline-block;
   font-size: 0.85em;
@@ -298,7 +297,7 @@ a:hover, a:color {
   word-spacing: 0.1em;
 }
 
-/* line 223, ../sass/custom_styles.sass */
+/* line 222, ../sass/custom_styles.sass */
 .techs-used {
   display: inline-block;
   font-size: 0.85em;
@@ -308,24 +307,24 @@ a:hover, a:color {
   margin-right: 0.5em;
 }
 
-/* line 231, ../sass/custom_styles.sass */
+/* line 230, ../sass/custom_styles.sass */
 .techs-list {
   font-size: 0.85em;
   display: inline-block;
   margin-bottom: 0;
 }
 
-/* line 236, ../sass/custom_styles.sass */
+/* line 235, ../sass/custom_styles.sass */
 #phone-number {
   font-size: 0.3em;
 }
 
-/* line 239, ../sass/custom_styles.sass */
+/* line 238, ../sass/custom_styles.sass */
 .post-link {
   font-size: 1.3em;
 }
 
-/* line 242, ../sass/custom_styles.sass */
+/* line 241, ../sass/custom_styles.sass */
 .post-header {
   border-bottom: 1px solid #e6dedc;
 }

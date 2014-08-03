@@ -148,7 +148,7 @@ layout: default
             <div class="large-4 columns job-title">{{ post.date | date: "%b %-d, %Y" }}</div>
             <div class="large-8 columns job-title right">
               {% for category in post.categories %}
-                {{ category }}
+                <a class="blog-category-link" href="{{ site.baseurl }}blog/categories/{{ category }}">{{ category }}</a>
               {% endfor %}
             </div>
           </div>
