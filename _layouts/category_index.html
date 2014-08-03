@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+{% include top_nav.html %}
+
+<div class="content-container current-content">
+	<h3 class="category-name">{{ page.title }}</h3>
+	{% for post in site.categories[page.category] %}
+	<div class='row info-listing'>
+        <div class='large-4 columns'>
+          <div class='row'><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
+          <div class='row post-information'>
+            <div class="large-4 columns job-title">{{ post.date | date: "%b %-d, %Y" }}</div>
+            <div class="large-8 columns job-title right">
+              {% for category in post.categories %}
+                <a class="blog-category-link" href="{{ site.baseurl }}blog/categories/{{ category }}">{{ category }}</a>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+        <div class='large-8 columns'>
+          {{ post.excerpt }}
+        </div>
+      </div>
+	{% endfor %}
+</div>
