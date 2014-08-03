@@ -11,17 +11,24 @@ layout: default
           <h3>{{ page.title }}</h3>
         </div>
       </div>
-      <div class="row">
+      <div class="row post-information">
       	<p class="meta large-4 columns">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-      	<p class="large-8 columns right">{{page.categories | join ' '}}</p>
+      	<p class="large-8 columns right">
+          {% for category in page.categories %}
+          <a class="blog-category-link" href="{{ site.baseurl }}blog/categories/{{ category }}">{{ category }}</a>
+          {% endfor %}
+        </p>
       </div>
     </header>
   </div>
   <br>
   <div class="row">
-    <article class="post-content">
+    <article class="post-content large-12 columns">
     {{ content }}
     </article>
   </div>
 
+  <div class='row'>
+    {% include comment_infrastructure.html %}
+  </div>
 </div>
