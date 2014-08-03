@@ -6,6 +6,9 @@ I enjoy building things through rapid experimentation with customers."
 baseurl: ""
 url: "http://www.magnarelli.org"
 
+# where to generate category listings, per plugin at https://github.com/recurser/jekyll-plugins
+category_dir: "blog/categories"
+
 # Build settings
 markdown: kramdown
 

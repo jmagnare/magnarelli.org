@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "My first blog post!"
 date:   2014-07-23 20:58:23
 permalink: "blog/this-is-a-test-post"
 excerpt: "Blah, blah, blah. This is a test excerpt. I'm writing it because it is coolio."
-categories: things stuff wowza
+categories: blog programming
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis est sit amet diam pretium lobortis. Nullam accumsan, nulla sit amet sollicitudin consectetur, neque neque tristique metus, eget sollicitudin ipsum nunc nec mauris. Etiam nibh massa, rhoncus vitae tellus eget, ornare ullamcorper est. Nunc a gravida ante. Nulla imperdiet ultricies sollicitudin. Maecenas et feugiat massa, in molestie metus. Fusce at cursus metus. Curabitur accumsan augue magna, quis elementum leo commodo eget. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur tincidunt nunc a magna dignissim, et convallis velit laoreet. Suspendisse quam ipsum, tincidunt eu felis sed, scelerisque iaculis metus. Curabitur tincidunt lectus augue, at mattis enim porttitor et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt ligula et felis luctus sodales. Donec mattis non nunc sit amet vehicula.

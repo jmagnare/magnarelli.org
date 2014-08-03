@@ -144,7 +144,7 @@ layout: default
       <div class='row info-listing'>
         <div class='large-4 columns'>
           <div class='row'><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
-          <div class='row'>
+          <div class='row post-information'>
             <div class="large-4 columns job-title">{{ post.date | date: "%b %-d, %Y" }}</div>
             <div class="large-8 columns job-title right">
               {% for category in post.categories %}
