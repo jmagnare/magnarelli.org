@@ -346,3 +346,8 @@ h1, h2, h3, h4, h5, h6, h7 {
 .category-name {
   color: #efefef;
 }
+
+/* line 258, ../sass/custom_styles.sass */
+.post h1, .post h2, .post h3, .post h4, .post h5, .post h6, .post h7 {
+  color: #e6e6e6;
+}

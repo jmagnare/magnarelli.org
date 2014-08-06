@@ -14,3 +14,6 @@ markdown: kramdown
 
 # Don't put these in _site
 exclude: [config.rb, sass]
+
+domain_name: "www.magnarelli.org"
+nav_sections: ["who", "what", "when", "where", "why"]
