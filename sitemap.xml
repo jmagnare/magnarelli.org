@@ -19,9 +19,9 @@ sitemap_exclude: y
     {% endif %}
     {% endfor %}
 
+    {% for nav_section in site.nav_sections %}
     <url>
-        {% for nav_section in site.nav_sections %}
         <loc>http://{{ site.domain_name }}/index.html#{{ nav_section }}</loc>
-        {% endfor %}
     </url>
+    {% endfor %}
 </urlset>

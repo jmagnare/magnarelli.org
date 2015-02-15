@@ -12,12 +12,12 @@ layout: default
         </div>
       </div>
       <div class="row post-information">
-      	<p class="meta large-4 columns">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-      	<p class="large-8 columns right">
+        <p class="large-8 columns left">
           {% for category in page.categories %}
           <a class="blog-category-link" href="{{ site.baseurl }}blog/categories/{{ category }}">{{ category }}</a>
           {% endfor %}
         </p>
+      	<p class="meta large-4 columns right">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
       </div>
     </header>
   </div>
